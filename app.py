@@ -187,8 +187,12 @@ class ProtocolPDF(FPDF):
 
 def transcribe_audio(audio_file, client: OpenAI) -> str:
     """Transkribiert eine Audio-Datei mit OpenAI Whisper."""
-    with tempfile.NamedTemporaryFile(delete=False, suffix=".mp3") as tmp:
-        tmp.write(audio_file.read())
+        # Datei-Extension aus dem Dateinamen extrahieren
+        file_ext = os.path.splitext(audio_file.name)[1].lower() or ".mp3"
+
+
+    with tempfile.NamedTemporaryFile(delete=False, suffix=file_ext) as tmp: 
+                tmp.write(audio_file.read())
         tmp_path = tmp.name
 
     try:
