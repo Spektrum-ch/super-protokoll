@@ -319,6 +319,12 @@ CUSTOM_CSS = """
     #MainMenu {visibility: hidden;}
     footer {visibility: hidden;}
 
+    /* Hide GitHub icon and header buttons */
+    header {visibility: hidden;}
+    .stApp [data-testid="stToolbar"] {display: none !important;}
+    .stApp [data-testid="stDecoration"] {display: none !important;}
+    .stDeployButton {display: none !important;}
+
     /* ============================================
        Animierte Verarbeitungsanzeige
        ============================================ */
