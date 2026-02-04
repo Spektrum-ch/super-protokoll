@@ -1344,7 +1344,7 @@ def main():
     st.markdown(CUSTOM_CSS, unsafe_allow_html=True)
 
     # Custom Footer
-    st.markdown('<div class="custom-footer">SPEKTRUM Partner GmbH</div>', unsafe_allow_html=True)
+    st.markdown('<div class="custom-footer"><a href="https://www.spekt.ch" target="_blank" style="color: #86868b; text-decoration: none;">SPEKTRUM Partner GmbH</a></div>', unsafe_allow_html=True)
 
     # Passwortschutz
     if not check_password():
