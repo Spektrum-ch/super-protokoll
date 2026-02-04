@@ -1,0 +1,25 @@
+# Sensible Daten
+.env
+activity_log.json
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+.Python
+venv/
+.venv/
+
+# macOS
+.DS_Store
+
+# Audio-Dateien
+audio/
+*.mp3
+*.wav
+*.m4a
+
+# Temporäre Dateien
+*.tmp
+Präsentation Vortrag KI/
+*.pptx

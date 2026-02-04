@@ -1,0 +1,19 @@
+[theme]
+# Helles, professionelles Farbschema
+primaryColor = "#4F46E5"          # Indigo - Hauptakzent
+backgroundColor = "#FFFFFF"        # Weiss - Hintergrund
+secondaryBackgroundColor = "#F8FAFC"  # Slate 50 - Sekundärer Hintergrund
+textColor = "#1E293B"              # Slate 800 - Text
+font = "sans serif"
+
+[server]
+headless = true
+enableCORS = false
+enableXsrfProtection = true
+enableStaticServing = true
+
+[browser]
+gatherUsageStats = false
+
+[runner]
+magicEnabled = true
