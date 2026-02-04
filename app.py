@@ -1311,7 +1311,12 @@ def main():
         page_title="Protokoll AI",
         page_icon="📝",
         layout="centered",
-        initial_sidebar_state="collapsed"
+        initial_sidebar_state="collapsed",
+        menu_items={
+            'Get Help': None,
+            'Report a bug': None,
+            'About': None
+        }
     )
 
     # Custom CSS laden
