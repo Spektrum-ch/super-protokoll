@@ -325,6 +325,21 @@ CUSTOM_CSS = """
     .stApp [data-testid="stDecoration"] {display: none !important;}
     .stDeployButton {display: none !important;}
 
+    /* Custom Footer */
+    .custom-footer {
+        position: fixed;
+        bottom: 0;
+        left: 0;
+        width: 100%;
+        background: #fbfbfd;
+        border-top: 1px solid #d2d2d7;
+        padding: 10px 0;
+        text-align: center;
+        font-size: 12px;
+        color: #86868b;
+        z-index: 999;
+    }
+
     /* ============================================
        Animierte Verarbeitungsanzeige
        ============================================ */
@@ -1327,6 +1342,9 @@ def main():
 
     # Custom CSS laden
     st.markdown(CUSTOM_CSS, unsafe_allow_html=True)
+
+    # Custom Footer
+    st.markdown('<div class="custom-footer">SPEKTRUM Partner GmbH</div>', unsafe_allow_html=True)
 
     # Passwortschutz
     if not check_password():
