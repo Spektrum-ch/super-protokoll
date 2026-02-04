@@ -1395,6 +1395,7 @@ def main():
 
     st.title("Protokoll AI")
     st.markdown("<p style='text-align:center; font-size:21px; color:#86868b;'>Verwandle Audio in professionelle Protokolle.</p>", unsafe_allow_html=True)
+    st.markdown("<p style='text-align:center; font-size:17px; color:#0071e3; font-weight:500;'>In Minuten statt Stunden.</p>", unsafe_allow_html=True)
     st.markdown("")
 
     # =========================================================================
