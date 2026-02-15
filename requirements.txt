@@ -1,5 +1,7 @@
 openai
+mistralai
 fpdf2
 python-dotenv
 streamlit
 python-docx
+resend
