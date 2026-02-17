@@ -5906,11 +5906,9 @@ def show_agb_fullpage():
 <p>12.2 Gerichtsstand ist Zürich, Schweiz. Für Verbraucher mit Wohnsitz in der EU gelten zusätzlich die zwingenden Verbraucherschutzvorschriften des Wohnsitzlandes.</p>
 </div>
 <div class="agb-section" id="a13" style="margin-top: 2.5rem; padding-top: 1.5rem; border-top: 2px solid #e4e3df;">
-<div class="agb-section__heading"><span class="agb-num" style="background:#f59e0b;">!</span> Widerrufsbelehrung (EU-Verbraucher)</div>
-<p><strong>Widerrufsrecht:</strong> Sie haben das Recht, binnen 14 Tagen ohne Angabe von Gründen diesen Vertrag zu widerrufen. Die Widerrufsfrist beträgt 14 Tage ab dem Tag des Vertragsabschlusses.</p>
-<p>Um Ihr Widerrufsrecht auszuüben, müssen Sie uns (SPEKTRUM Partner GmbH, Josefstrasse 181, 8005 Zürich, E-Mail: <a href="mailto:minutes-ai@spekt.ch" style="color:#7c3aed;">minutes-ai@spekt.ch</a>) mittels einer eindeutigen Erklärung über Ihren Entschluss, diesen Vertrag zu widerrufen, informieren.</p>
-<p><strong>Folgen des Widerrufs:</strong> Wenn Sie diesen Vertrag widerrufen, haben wir Ihnen alle Zahlungen unverzüglich und spätestens binnen 14 Tagen zurückzuzahlen.</p>
-<p><strong>Vorzeitiges Erlöschen:</strong> Das Widerrufsrecht erlischt vorzeitig, wenn wir mit der Ausführung des Vertrags begonnen haben, nachdem Sie ausdrücklich zugestimmt haben. Bei MINU-AI erfolgt diese Zustimmung durch Aktivierung des Dienstes (erste Nutzung der Transkriptionsfunktion).</p>
+<div class="agb-section__heading"><span class="agb-num" style="background:#7c3aed;">B2B</span> Widerrufsrecht – Ausschluss</div>
+<p>MINU-AI richtet sich ausschliesslich an Geschäftskunden (B2B). Ein gesetzliches Widerrufsrecht nach der EU-Verbraucherrechterichtlinie 2011/83/EU besteht daher nicht.</p>
+<p>Vertragsbeendigungen sind ausschliesslich nach den Kündigungsregelungen in §6 möglich.</p>
 </div>
 </div>""", unsafe_allow_html=True)
     else:
@@ -6005,11 +6003,9 @@ def show_agb_fullpage():
 <p>12.2 The place of jurisdiction is Zurich, Switzerland. For consumers domiciled in the EU, the mandatory consumer protection provisions of the country of domicile additionally apply.</p>
 </div>
 <div class="agb-section" id="a13" style="margin-top: 2.5rem; padding-top: 1.5rem; border-top: 2px solid #e4e3df;">
-<div class="agb-section__heading"><span class="agb-num" style="background:#f59e0b;">!</span> Right of Withdrawal (EU Consumers)</div>
-<p><strong>Right of Withdrawal:</strong> You have the right to withdraw from this contract within 14 days without giving any reason. The withdrawal period is 14 days from the date of contract conclusion.</p>
-<p>To exercise your right of withdrawal, you must inform us (SPEKTRUM Partner GmbH, Josefstrasse 181, 8005 Zurich, Email: <a href="mailto:minutes-ai@spekt.ch" style="color:#7c3aed;">minutes-ai@spekt.ch</a>) of your decision to withdraw from this contract by means of a clear declaration.</p>
-<p><strong>Consequences of Withdrawal:</strong> If you withdraw from this contract, we shall reimburse all payments received from you without undue delay and no later than within 14 days.</p>
-<p><strong>Early Expiry:</strong> The right of withdrawal expires prematurely if we have begun performance of the contract after you have expressly consented. With MINU-AI, this consent is given by activating the Service (first use of the transcription function).</p>
+<div class="agb-section__heading"><span class="agb-num" style="background:#7c3aed;">B2B</span> Right of Withdrawal – Exclusion</div>
+<p>MINU-AI is intended exclusively for business customers (B2B). Therefore, no statutory right of withdrawal under EU Consumer Rights Directive 2011/83/EU applies.</p>
+<p>Contract terminations are only possible in accordance with the cancellation provisions in §6.</p>
 </div>
 </div>""", unsafe_allow_html=True)
 
