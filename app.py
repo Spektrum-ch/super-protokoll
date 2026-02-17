@@ -62,10 +62,9 @@ ANALYTICS_SCRIPT = "https://stats.spekt.ch/script.js"
 ANALYTICS_ID = "a0b144e3-49da-4d39-bf78-9b1fb28b06d9"
 
 # Erlaubte Länder für Stripe (gemäss AGB §5)
-# CH, UK, EWR (IS, LI, NO) und EU-27
+# CH, EWR (IS, LI, NO) und EU-27
 ALLOWED_COUNTRIES = [
     'CH',  # Schweiz
-    'GB',  # Vereinigtes Königreich
     'IS', 'LI', 'NO',  # EWR (nicht EU)
     # EU-27 Länder
     'AT', 'BE', 'BG', 'HR', 'CY', 'CZ', 'DK', 'EE', 'FI', 'FR',
@@ -253,7 +252,7 @@ TRANSLATIONS = {
         "error_email_exists": "This email is already registered.",
         "error_downgrade_not_allowed": "Downgrade not possible. Please cancel your current subscription first and re-register.",
         "error_plan_already_active": "You already have an active subscription with this email address.",
-        "error_country_blocked": "MINU-AI is not available in your country. According to our Terms of Service (§5), only customers from Switzerland, EU, EEA and UK can purchase.",
+        "error_country_blocked": "MINU-AI is not available in your country. According to our Terms of Service (§5), only customers from Switzerland, EU and EEA can purchase.",
         "error_consent_required": "Please accept the Terms & Conditions",
         "login_title": "Login",
         "login_subtitle": "Continue with your existing account",
@@ -403,7 +402,7 @@ TRANSLATIONS = {
         "error_email_exists": "Diese E-Mail ist bereits registriert.",
         "error_downgrade_not_allowed": "Downgrade nicht möglich. Bitte kündigen Sie zuerst Ihr aktuelles Abo und registrieren Sie sich neu.",
         "error_plan_already_active": "Sie haben bereits ein aktives Abonnement mit dieser E-Mail-Adresse.",
-        "error_country_blocked": "MINU-AI ist in Ihrem Land nicht verfügbar. Gemäss unseren AGB (§5) können nur Kunden aus der Schweiz, EU, EWR und UK kaufen.",
+        "error_country_blocked": "MINU-AI ist in Ihrem Land nicht verfügbar. Gemäss unseren AGB (§5) können nur Kunden aus der Schweiz, EU und EWR kaufen.",
         "error_consent_required": "Bitte akzeptieren Sie die AGB",
         "login_title": "Anmelden",
         "login_subtitle": "Mit bestehendem Konto fortfahren",
@@ -7133,7 +7132,7 @@ def show_agb_dialog():
 4.5 <b>Wertsicherung:</b> Die Entgelte sind wertgesichert. Als Massstab dient der vom Bundesamt für Statistik (BFS) veröffentlichte Landesindex der Konsumentenpreise (LIK). Basismonat ist der Monat des Vertragsschlusses. Der Anbieter ist berechtigt, zu Beginn eines jeden Kalenderjahres die Preise im Umfang der Indexveränderung anzupassen. Der Kunde wird über Preisanpassungen per E-Mail informiert. Unterlässt der Anbieter die Indexierung in einzelnen Jahren, bedeutet dies keinen Verzicht auf die eingetretene Wertsicherung.
 
 <b>§5 Geografische Verfügbarkeit</b><br>
-5.1 <b>MINU-AI ist ausschliesslich für Kunden mit Sitz in folgenden Regionen verfügbar:</b> Schweiz, Europäische Union (EU), Europäischer Wirtschaftsraum (EWR) und Vereinigtes Königreich (UK).<br><br>
+5.1 <b>MINU-AI ist ausschliesslich für Kunden mit Sitz in folgenden Regionen verfügbar:</b> Schweiz, Europäische Union (EU) und Europäischer Wirtschaftsraum (EWR).<br><br>
 5.2 <b>Kunden aus folgenden Ländern sind von der Nutzung ausgeschlossen:</b> USA, China, Russland, Indien, Brasilien sowie alle Länder, die Sanktionen unterliegen.<br><br>
 5.3 Mit der Registrierung bestätigt der Kunde, dass sein Unternehmen seinen Sitz in einer der zugelassenen Regionen hat.<br><br>
 5.4 Der Anbieter behält sich vor, Registrierungen aus ausgeschlossenen Ländern abzulehnen oder bestehende Konten zu kündigen.
@@ -7225,7 +7224,7 @@ Es gilt die separate Datenschutzerklärung (siehe Link "Datenschutz" im Footer).
 4.6 <b>Price Indexation:</b> The fees are subject to value adjustment. The Swiss Consumer Price Index (CPI) published by the Federal Statistical Office (FSO) serves as the benchmark. The base month is the month of contract conclusion. The Provider is entitled to adjust prices at the beginning of each calendar year in accordance with the index change. The Customer will be notified of price adjustments by email. If the Provider does not apply the indexation in individual years, this does not constitute a waiver of the accrued value adjustment.
 
 <b>§5 Geographic Availability</b><br>
-5.1 <b>MINU-AI is exclusively available to customers from the following regions:</b> European Union (EU), European Economic Area (EEA), Switzerland and the United Kingdom (UK).<br><br>
+5.1 <b>MINU-AI is exclusively available to customers from the following regions:</b> Switzerland, European Union (EU) and European Economic Area (EEA).<br><br>
 5.2 <b>The service is expressly NOT available for customers from the following countries:</b> United States of America (USA), China (including Hong Kong and Macao), Russia, India, Brazil, as well as all other countries not mentioned in §5.1.<br><br>
 5.3 The Customer warrants that their place of business is located in one of the permitted regions according to §5.1. False information may lead to immediate contract termination.<br><br>
 5.4 The Provider reserves the right to expand or restrict the list of permitted regions at any time. Existing contracts are not affected by changes to newly permitted regions.
@@ -7470,7 +7469,7 @@ def main():
         "de": '''<div style="font-weight: 600; margin-bottom: 10px;">📋 AGB – Kurzfassung</div>
             <div style="font-size: 11px; color: #666; line-height: 1.5; max-height: 250px; overflow-y: auto;">
                 <b>B2B-Dienst:</b> Nur für Unternehmen, kein Widerrufsrecht.<br><br>
-                <b>Verfügbarkeit:</b> CH, EU, EWR, UK. Ausgeschlossen: USA, CN, RU, IN, BR.<br><br>
+                <b>Verfügbarkeit:</b> CH, EU, EWR. Ausgeschlossen: USA, CN, RU, IN, BR, UK.<br><br>
                 <b>Zahlung:</b> Monatlich/jährlich via Stripe, automatische Verlängerung.<br><br>
                 <b>Kündigung:</b> Jederzeit zum Ende der Laufzeit im Kundenportal.<br><br>
                 <b>KI-Disclaimer:</b> Ergebnisse sind Arbeitshilfen, keine rechtssichere Dokumente. Prüfpflicht beim Kunden.<br><br>
@@ -7480,7 +7479,7 @@ def main():
         "en": '''<div style="font-weight: 600; margin-bottom: 10px;">📋 Terms – Summary</div>
             <div style="font-size: 11px; color: #666; line-height: 1.5; max-height: 250px; overflow-y: auto;">
                 <b>B2B Service:</b> Business customers only, no withdrawal right.<br><br>
-                <b>Availability:</b> CH, EU, EEA, UK. Excluded: USA, CN, RU, IN, BR.<br><br>
+                <b>Availability:</b> CH, EU, EEA. Excluded: USA, CN, RU, IN, BR, UK.<br><br>
                 <b>Payment:</b> Monthly/yearly via Stripe, auto-renewal.<br><br>
                 <b>Cancellation:</b> Anytime effective end of period via customer portal.<br><br>
                 <b>AI Disclaimer:</b> Results are work aids, not legally binding documents. Customer must verify.<br><br>
@@ -7490,7 +7489,7 @@ def main():
         "fr": '''<div style="font-weight: 600; margin-bottom: 10px;">📋 CGV – Résumé</div>
             <div style="font-size: 11px; color: #666; line-height: 1.5; max-height: 250px; overflow-y: auto;">
                 <b>Service B2B:</b> Entreprises uniquement, pas de droit de rétractation.<br><br>
-                <b>Disponibilité:</b> CH, UE, EEE, UK. Exclus: USA, CN, RU, IN, BR.<br><br>
+                <b>Disponibilité:</b> CH, UE, EEE. Exclus: USA, CN, RU, IN, BR, UK.<br><br>
                 <b>Paiement:</b> Mensuel/annuel via Stripe, renouvellement automatique.<br><br>
                 <b>Résiliation:</b> À tout moment via le portail client.<br><br>
                 <b>Disclaimer IA:</b> Résultats = aides au travail, pas de documents juridiques. Vérification par le client.<br><br>
@@ -7500,7 +7499,7 @@ def main():
         "it": '''<div style="font-weight: 600; margin-bottom: 10px;">📋 CGC – Riepilogo</div>
             <div style="font-size: 11px; color: #666; line-height: 1.5; max-height: 250px; overflow-y: auto;">
                 <b>Servizio B2B:</b> Solo aziende, nessun diritto di recesso.<br><br>
-                <b>Disponibilità:</b> CH, UE, SEE, UK. Esclusi: USA, CN, RU, IN, BR.<br><br>
+                <b>Disponibilità:</b> CH, UE, SEE. Esclusi: USA, CN, RU, IN, BR, UK.<br><br>
                 <b>Pagamento:</b> Mensile/annuale via Stripe, rinnovo automatico.<br><br>
                 <b>Disdetta:</b> In qualsiasi momento tramite il portale clienti.<br><br>
                 <b>Disclaimer IA:</b> Risultati = ausili di lavoro, non documenti legali. Verifica da parte del cliente.<br><br>
