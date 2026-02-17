@@ -5825,132 +5825,99 @@ def show_agb_fullpage():
 <div class="agb-toc__title">Inhaltsverzeichnis</div>
 <ol>
 <li><a href="#a1">Geltungsbereich</a></li>
-<li><a href="#a2">Vertragsgegenstand</a></li>
-<li><a href="#a3">Registrierung und Konto</a></li>
-<li><a href="#a4">Leistungen und Verfügbarkeit</a></li>
-<li><a href="#a5">Abonnement und Preise</a></li>
-<li><a href="#a6">Zahlung</a></li>
-<li><a href="#a7">Kündigung</a></li>
-<li><a href="#a8">Nutzungsbedingungen</a></li>
-<li><a href="#a9">Datenverarbeitung und Datenschutz</a></li>
-<li><a href="#a10">Geistiges Eigentum</a></li>
-<li><a href="#a11">Haftung und Gewährleistung</a></li>
-<li><a href="#a12">Änderungen der AGB</a></li>
-<li><a href="#a13">Schlussbestimmungen</a></li>
+<li><a href="#a2">Leistungsbeschreibung</a></li>
+<li><a href="#a3">Vertragsschluss und Registrierung</a></li>
+<li><a href="#a4">Preise und Zahlung</a></li>
+<li><a href="#a5">Kostenlose Testphase</a></li>
+<li><a href="#a6">Kündigung</a></li>
+<li><a href="#a7">Nutzungsbedingungen</a></li>
+<li><a href="#a8">Datenschutz</a></li>
+<li><a href="#a9">Haftung</a></li>
+<li><a href="#a10">Verfügbarkeit</a></li>
+<li><a href="#a11">Änderungen der AGB</a></li>
+<li><a href="#a12">Anwendbares Recht und Gerichtsstand</a></li>
 </ol>
 </nav>
 <div class="agb-section" id="a1">
-<div class="agb-section__heading"><span class="agb-num">1</span> Geltungsbereich</div>
-<p>Diese Allgemeinen Geschäftsbedingungen (AGB) gelten für die Nutzung der App «MINU-AI» (nachfolgend «App» oder «Dienst»), betrieben von der SPEKTRUM Partner GmbH (nachfolgend «Anbieter», «wir»).</p>
-<div class="agb-contact">
-<p><strong>SPEKTRUM Partner GmbH</strong></p>
-<p>Josefstrasse 181, 8005 Zürich, Schweiz</p>
-<p>E-Mail: <a href="mailto:minu-ai@spekt.ch">minu-ai@spekt.ch</a></p>
-<p>Website: <a href="https://minu-ai.ch" target="_blank" rel="noopener">https://minu-ai.ch</a></p>
-</div>
-<p>Mit der Registrierung und Nutzung der App erklärt sich der Nutzer (nachfolgend «Kunde», «Sie») mit diesen AGB einverstanden. Abweichende Bedingungen des Kunden werden nicht anerkannt, es sei denn, der Anbieter hat ihrer Geltung ausdrücklich schriftlich zugestimmt.</p>
-<p>Die App richtet sich an Geschäftskunden (B2B). Die Nutzung setzt die Geschäftsfähigkeit des Kunden voraus.</p>
+<div class="agb-section__heading"><span class="agb-num">§1</span> Geltungsbereich</div>
+<p>Diese Allgemeinen Geschäftsbedingungen gelten für die Nutzung der Web-Applikation MINU-AI (nachfolgend «Dienst»), bereitgestellt von der SPEKTRUM Partner GmbH, Josefstrasse 181, 8005 Zürich, Schweiz (nachfolgend «Anbieter»).</p>
+<p>Mit der Registrierung oder Nutzung des Dienstes akzeptiert der Nutzer diese AGB.</p>
 </div>
 <div class="agb-section" id="a2">
-<div class="agb-section__heading"><span class="agb-num">2</span> Vertragsgegenstand</div>
-<p>MINU-AI ist eine KI-gestützte Anwendung zur automatisierten Erstellung von Sitzungsprotokollen. Der Dienst umfasst:</p>
+<div class="agb-section__heading"><span class="agb-num">§2</span> Leistungsbeschreibung</div>
+<p>MINU-AI ist eine webbasierte Anwendung zur automatisierten Erstellung von Meeting-Protokollen. Der Dienst umfasst:</p>
 <ul class="agb-list">
-<li>Hochladen von Audio-Dateien (Aufnahmen von Sitzungen, Besprechungen etc.)</li>
-<li>Automatische Transkription der Audio-Dateien mittels KI (Sprache-zu-Text)</li>
-<li>KI-gestützte Erstellung strukturierter Protokolle aus der Transkription</li>
-<li>Bereitstellung der Protokolle zum Download durch den Kunden</li>
+<li>Transkription von Audio-Aufnahmen mittels OpenAI Whisper</li>
+<li>Protokollerstellung mittels Künstlicher Intelligenz (Mistral AI)</li>
+<li>Export als PDF und Word-Dokument</li>
+<li>E-Mail-Versand der Protokolle</li>
 </ul>
-<p>Die konkreten Funktionen und Leistungsumfänge richten sich nach dem jeweils gewählten Abonnement.</p>
 </div>
 <div class="agb-section" id="a3">
-<div class="agb-section__heading"><span class="agb-num">3</span> Registrierung und Konto</div>
-<p>Für die Nutzung der App ist eine Registrierung erforderlich. Der Kunde verpflichtet sich, bei der Registrierung wahrheitsgemässe und vollständige Angaben zu machen und diese aktuell zu halten.</p>
-<p>Jedes Konto ist einem Kunden zugeordnet. Die Zugangsdaten sind vertraulich zu behandeln und dürfen nicht an Dritte weitergegeben werden. Der Kunde ist für alle Aktivitäten verantwortlich, die unter seinem Konto stattfinden.</p>
-<p>Bei Verdacht auf unbefugte Nutzung des Kontos ist der Anbieter unverzüglich zu informieren.</p>
+<div class="agb-section__heading"><span class="agb-num">§3</span> Vertragsschluss und Registrierung</div>
+<p>3.1 Der Vertrag kommt durch die Registrierung und Bestätigung der E-Mail-Adresse zustande.</p>
+<p>3.2 Der Nutzer muss mindestens 18 Jahre alt sein oder die Zustimmung eines Erziehungsberechtigten haben.</p>
+<p>3.3 Die Registrierung ist nur für geschäftliche oder berufliche Zwecke vorgesehen.</p>
 </div>
 <div class="agb-section" id="a4">
-<div class="agb-section__heading"><span class="agb-num">4</span> Leistungen und Verfügbarkeit</div>
-<p>Der Anbieter erbringt die Leistungen nach dem jeweiligen Stand der Technik. Er bemüht sich um eine hohe Verfügbarkeit der App, kann jedoch keine ununterbrochene Verfügbarkeit garantieren.</p>
-<p>Geplante Wartungsarbeiten werden nach Möglichkeit vorab angekündigt. Kurzfristige Unterbrechungen für dringende Wartungs- oder Sicherheitsmassnahmen sind jederzeit möglich.</p>
-<div class="agb-highlight">
-<strong>Hinweis zur KI-Verarbeitung:</strong> Die Ergebnisse der KI-gestützten Transkription und Protokollerstellung sind maschinell generiert und können Fehler enthalten. Der Kunde ist für die Überprüfung und Freigabe der erstellten Protokolle selbst verantwortlich. Die KI-Ergebnisse stellen keine automatisierte Entscheidungsfindung im Sinne von Art. 22 DSGVO dar.
-</div>
+<div class="agb-section__heading"><span class="agb-num">§4</span> Preise und Zahlung</div>
+<p>4.1 Die aktuellen Preise sind auf der Website ersichtlich. Alle Preise verstehen sich in Schweizer Franken (CHF) inklusive gesetzlicher Mehrwertsteuer.</p>
+<p>4.2 Die Zahlung erfolgt im Voraus per Kreditkarte über den Zahlungsdienstleister Stripe.</p>
+<p>4.3 Bei Abonnements verlängert sich der Vertrag automatisch um die jeweilige Laufzeit, sofern nicht rechtzeitig gekündigt wird.</p>
 </div>
 <div class="agb-section" id="a5">
-<div class="agb-section__heading"><span class="agb-num">5</span> Abonnement und Preise</div>
-<p>Die Nutzung der App erfolgt auf Basis eines kostenpflichtigen Abonnements. Die verfügbaren Abonnements, deren Leistungsumfang und Preise sind auf der Webseite <a href="https://minu-ai.ch" target="_blank" rel="noopener" style="color:#7c3aed;">minu-ai.ch</a> ersichtlich.</p>
-<p>Alle angegebenen Preise verstehen sich in Schweizer Franken (CHF) und exklusive der gesetzlichen Mehrwertsteuer, sofern nicht anders angegeben.</p>
-<p>Der Anbieter behält sich vor, die Preise für zukünftige Abrechnungszeiträume mit einer Ankündigungsfrist von mindestens 30 Tagen anzupassen. Bestehende, bereits bezahlte Abrechnungszeiträume bleiben davon unberührt.</p>
+<div class="agb-section__heading"><span class="agb-num">§5</span> Kostenlose Testphase</div>
+<p>5.1 Neuen Nutzern wird eine kostenlose Testphase von 3 Wochen mit 60 Minuten Transkriptionsvolumen gewährt.</p>
+<p>5.2 Nach Ablauf der Testphase endet der Zugang automatisch, sofern kein kostenpflichtiges Abonnement abgeschlossen wird.</p>
 </div>
 <div class="agb-section" id="a6">
-<div class="agb-section__heading"><span class="agb-num">6</span> Zahlung</div>
-<p>Die Abrechnung erfolgt über den Zahlungsdienstleister Stripe. Der Kunde autorisiert mit der Registrierung die wiederkehrende Belastung der hinterlegten Zahlungsmethode gemäss dem gewählten Abrechnungsintervall (monatlich oder jährlich).</p>
-<p>Bei fehlgeschlagener Zahlung wird der Kunde benachrichtigt und erhält eine angemessene Frist zur Begleichung. Nach erfolglosem Ablauf der Frist kann der Zugang zur App eingeschränkt oder gesperrt werden.</p>
-<p>Rechnungen werden dem Kunden elektronisch (per E-Mail oder über das Kundenportal) zur Verfügung gestellt.</p>
+<div class="agb-section__heading"><span class="agb-num">§6</span> Kündigung</div>
+<p>6.1 Monatsabonnements können jederzeit zum Ende der laufenden Abrechnungsperiode gekündigt werden.</p>
+<p>6.2 Jahresabonnements können mit einer Frist von 30 Tagen zum Ende der Laufzeit gekündigt werden.</p>
+<p>6.3 Die Kündigung erfolgt über das Kundenportal oder per E-Mail an <a href="mailto:minutes-ai@spekt.ch" style="color:#7c3aed;">minutes-ai@spekt.ch</a>.</p>
 </div>
 <div class="agb-section" id="a7">
-<div class="agb-section__heading"><span class="agb-num">7</span> Kündigung</div>
-<p>Das Abonnement kann vom Kunden jederzeit zum Ende des laufenden Abrechnungszeitraums gekündigt werden. Die Kündigung erfolgt über die Kontoeinstellungen in der App oder per E-Mail an <a href="mailto:minu-ai@spekt.ch" style="color:#7c3aed;">minu-ai@spekt.ch</a>.</p>
-<p>Nach der Kündigung bleibt der Zugang bis zum Ende des bezahlten Zeitraums bestehen. Bereits bezahlte Gebühren werden nicht zurückerstattet.</p>
-<p>Der Anbieter kann das Vertragsverhältnis mit einer Frist von 30 Tagen zum Monatsende kündigen. Bei schwerwiegenden Vertragsverletzungen ist eine fristlose Kündigung möglich.</p>
-<p>Nach Beendigung des Vertragsverhältnisses werden die Kontodaten des Kunden innerhalb von 90 Tagen gelöscht, sofern keine gesetzlichen Aufbewahrungspflichten entgegenstehen.</p>
+<div class="agb-section__heading"><span class="agb-num">§7</span> Nutzungsbedingungen</div>
+<p>7.1 Der Nutzer verpflichtet sich, den Dienst nur für rechtmässige Zwecke zu nutzen.</p>
+<p>7.2 Das Hochladen von rechtswidrigen, beleidigenden oder urheberrechtlich geschützten Inhalten ohne entsprechende Berechtigung ist untersagt.</p>
+<p>7.3 Der Nutzer ist für die Einholung aller erforderlichen Einwilligungen der in den Aufnahmen vorkommenden Personen verantwortlich.</p>
 </div>
 <div class="agb-section" id="a8">
-<div class="agb-section__heading"><span class="agb-num">8</span> Nutzungsbedingungen</div>
-<p>Der Kunde verpflichtet sich, die App ausschliesslich für rechtmässige Zwecke zu nutzen. Insbesondere ist es untersagt:</p>
-<ul class="agb-list">
-<li>Die App für rechtswidrige, betrügerische oder schädliche Zwecke zu verwenden</li>
-<li>Audio-Aufnahmen hochzuladen, die ohne Wissen und Einwilligung der aufgenommenen Personen erstellt wurden (soweit gesetzlich erforderlich)</li>
-<li>Die App oder ihre Infrastruktur technisch zu manipulieren, zu überlasten oder auf andere Weise zu beeinträchtigen</li>
-<li>Zugangs- oder Sicherheitsmechanismen zu umgehen</li>
-<li>Die App für automatisierte Massenverarbeitungen zu nutzen, die über den normalen Gebrauch hinausgehen</li>
-</ul>
-<p>Der Kunde ist allein dafür verantwortlich, dass er über die erforderlichen Rechte und Einwilligungen verfügt, um Audio-Aufnahmen hochzuladen und verarbeiten zu lassen. Dies schliesst die Einhaltung lokaler Gesetze zur Aufnahme von Gesprächen ein.</p>
+<div class="agb-section__heading"><span class="agb-num">§8</span> Datenschutz</div>
+<p>Die Verarbeitung personenbezogener Daten erfolgt gemäss unserer <a href="/?datenschutz=1" style="color:#7c3aed;">Datenschutzerklärung</a>. Der Anbieter hält die Vorgaben der EU-DSGVO und des Schweizer Datenschutzgesetzes (DSG) ein.</p>
 </div>
 <div class="agb-section" id="a9">
-<div class="agb-section__heading"><span class="agb-num">9</span> Datenverarbeitung und Datenschutz</div>
-<p>Der Schutz personenbezogener Daten ist uns wichtig. Details zur Datenverarbeitung finden Sie in unserer <a href="/?datenschutz=1" style="color:#7c3aed;">Datenschutzerklärung</a>.</p>
-<p><strong>Audio-Dateien:</strong> Hochgeladene Audio-Dateien werden ausschliesslich zur Erbringung der Dienstleistung (Transkription und Protokollerstellung) verarbeitet und nach der Verarbeitung sofort von unserem Server gelöscht. Es findet keine dauerhafte Speicherung von Audio-Dateien statt.</p>
-<p><strong>Transkripte und Protokolle:</strong> Die erstellten Transkripte und Protokolle werden nicht dauerhaft auf unseren Servern gespeichert. Der Kunde ist für das Herunterladen und die Aufbewahrung seiner Ergebnisse selbst verantwortlich.</p>
-<p><strong>Drittanbieter:</strong> Für die Transkription nutzen wir die OpenAI Whisper API, für die Protokollerstellung Mistral AI. Mit beiden Anbietern bestehen Auftragsverarbeitungsverträge (DPA).</p>
-<p><strong>Kein Modelltraining:</strong> Weder MINU-AI noch unsere Drittanbieter verwenden die Daten des Kunden zum Training von KI-Modellen.</p>
-<p>Soweit der Kunde als Verantwortlicher personenbezogene Daten über die App verarbeiten lässt, handelt der Anbieter als Auftragsverarbeiter. Auf Anfrage stellt der Anbieter einen Auftragsverarbeitungsvertrag (AVV/DPA) gemäss Art. 28 DSGVO bzw. Art. 9 DSG zur Verfügung.</p>
+<div class="agb-section__heading"><span class="agb-num">§9</span> Haftung</div>
+<p>9.1 Der Anbieter haftet unbeschränkt für Vorsatz und grobe Fahrlässigkeit.</p>
+<p>9.2 Für leichte Fahrlässigkeit haftet der Anbieter nur bei Verletzung wesentlicher Vertragspflichten, beschränkt auf den vorhersehbaren, vertragstypischen Schaden.</p>
+<p>9.3 Die Haftung für die Richtigkeit der KI-generierten Protokolle ist ausgeschlossen. Der Nutzer ist für die Überprüfung der Ergebnisse verantwortlich.</p>
+<p>9.4 Der Anbieter haftet nicht für Schäden durch höhere Gewalt, Ausfall von Drittdiensten (OpenAI, Mistral AI) oder unvorhersehbare technische Störungen.</p>
 </div>
 <div class="agb-section" id="a10">
-<div class="agb-section__heading"><span class="agb-num">10</span> Geistiges Eigentum</div>
-<p>Alle Rechte an der App, einschliesslich Software, Design, Marken und Inhalte, verbleiben beim Anbieter. Der Kunde erhält ein einfaches, nicht übertragbares Nutzungsrecht für die Dauer des Abonnements.</p>
-<p>Die vom Kunden hochgeladenen Audio-Dateien und die daraus erstellten Protokolle verbleiben im Eigentum des Kunden. Der Anbieter erwirbt daran keine Rechte.</p>
+<div class="agb-section__heading"><span class="agb-num">§10</span> Verfügbarkeit</div>
+<p>Der Anbieter bemüht sich um eine Verfügbarkeit von 99% im Jahresmittel. Wartungsarbeiten werden nach Möglichkeit vorab angekündigt. Ein Anspruch auf ununterbrochene Verfügbarkeit besteht nicht.</p>
 </div>
 <div class="agb-section" id="a11">
-<div class="agb-section__heading"><span class="agb-num">11</span> Haftung und Gewährleistung</div>
-<p>Der Anbieter haftet unbeschränkt für Schäden aus der Verletzung des Lebens, des Körpers oder der Gesundheit sowie für vorsätzlich oder grob fahrlässig verursachte Schäden.</p>
-<p>Im Übrigen ist die Haftung des Anbieters auf den vorhersehbaren, vertragstypischen Schaden begrenzt, maximal jedoch auf den vom Kunden in den letzten 12 Monaten gezahlten Betrag.</p>
-<p>Der Anbieter haftet nicht für:</p>
-<ul class="agb-list">
-<li>Inhaltliche Richtigkeit der KI-generierten Transkripte und Protokolle</li>
-<li>Schäden, die aus der Nutzung fehlerhafter KI-Ergebnisse ohne angemessene Überprüfung entstehen</li>
-<li>Ausfälle oder Einschränkungen, die auf höhere Gewalt oder Störungen bei Drittanbietern (insbesondere OpenAI, Mistral AI) zurückzuführen sind</li>
-<li>Datenverlust, soweit der Kunde zumutbare Sicherungsmassnahmen unterlassen hat</li>
-</ul>
+<div class="agb-section__heading"><span class="agb-num">§11</span> Änderungen der AGB</div>
+<p>Der Anbieter behält sich vor, diese AGB jederzeit zu ändern. Änderungen werden dem Nutzer per E-Mail mitgeteilt. Widerspricht der Nutzer nicht innerhalb von 30 Tagen, gelten die Änderungen als akzeptiert.</p>
 </div>
 <div class="agb-section" id="a12">
-<div class="agb-section__heading"><span class="agb-num">12</span> Änderungen der AGB</div>
-<p>Der Anbieter behält sich vor, diese AGB jederzeit zu ändern. Änderungen werden dem Kunden mindestens 30 Tage vor Inkrafttreten per E-Mail mitgeteilt.</p>
-<p>Widerspricht der Kunde den Änderungen nicht innerhalb von 30 Tagen nach Zugang der Mitteilung, gelten die geänderten AGB als akzeptiert. Auf diese Rechtsfolge wird in der Änderungsmitteilung besonders hingewiesen.</p>
-<p>Im Falle eines Widerspruchs hat der Anbieter das Recht, das Vertragsverhältnis zum Zeitpunkt des Inkrafttretens der geänderten AGB zu kündigen.</p>
+<div class="agb-section__heading"><span class="agb-num">§12</span> Anwendbares Recht und Gerichtsstand</div>
+<p>12.1 Es gilt ausschliesslich Schweizer Recht unter Ausschluss des UN-Kaufrechts.</p>
+<p>12.2 Gerichtsstand ist Zürich, Schweiz. Für Verbraucher mit Wohnsitz in der EU gelten zusätzlich die zwingenden Verbraucherschutzvorschriften des Wohnsitzlandes.</p>
 </div>
-<div class="agb-section" id="a13">
-<div class="agb-section__heading"><span class="agb-num">13</span> Schlussbestimmungen</div>
-<p><strong>Anwendbares Recht:</strong> Es gilt Schweizer Recht unter Ausschluss des Kollisionsrechts und des UN-Kaufrechts (CISG).</p>
-<p><strong>Gerichtsstand:</strong> Ausschliesslicher Gerichtsstand für alle Streitigkeiten aus oder im Zusammenhang mit diesem Vertrag ist Zürich, Schweiz. Zwingende gesetzliche Gerichtsstände bleiben vorbehalten.</p>
-<p><strong>Salvatorische Klausel:</strong> Sollte eine Bestimmung dieser AGB unwirksam sein oder werden, bleibt die Wirksamkeit der übrigen Bestimmungen davon unberührt. An die Stelle der unwirksamen Bestimmung tritt eine Regelung, die dem wirtschaftlichen Zweck der unwirksamen Bestimmung am nächsten kommt.</p>
-<p><strong>Schriftform:</strong> Ergänzungen und Änderungen dieser AGB bedürfen der Schriftform. Dies gilt auch für die Aufhebung des Schriftformerfordernisses.</p>
+<div class="agb-section" id="a13" style="margin-top: 2.5rem; padding-top: 1.5rem; border-top: 2px solid #e4e3df;">
+<div class="agb-section__heading"><span class="agb-num" style="background:#f59e0b;">!</span> Widerrufsbelehrung (EU-Verbraucher)</div>
+<p><strong>Widerrufsrecht:</strong> Sie haben das Recht, binnen 14 Tagen ohne Angabe von Gründen diesen Vertrag zu widerrufen. Die Widerrufsfrist beträgt 14 Tage ab dem Tag des Vertragsabschlusses.</p>
+<p>Um Ihr Widerrufsrecht auszuüben, müssen Sie uns (SPEKTRUM Partner GmbH, Josefstrasse 181, 8005 Zürich, E-Mail: <a href="mailto:minutes-ai@spekt.ch" style="color:#7c3aed;">minutes-ai@spekt.ch</a>) mittels einer eindeutigen Erklärung über Ihren Entschluss, diesen Vertrag zu widerrufen, informieren.</p>
+<p><strong>Folgen des Widerrufs:</strong> Wenn Sie diesen Vertrag widerrufen, haben wir Ihnen alle Zahlungen unverzüglich und spätestens binnen 14 Tagen zurückzuzahlen.</p>
+<p><strong>Vorzeitiges Erlöschen:</strong> Das Widerrufsrecht erlischt vorzeitig, wenn wir mit der Ausführung des Vertrags begonnen haben, nachdem Sie ausdrücklich zugestimmt haben. Bei MINU-AI erfolgt diese Zustimmung durch Aktivierung des Dienstes (erste Nutzung der Transkriptionsfunktion).</p>
 </div>
 </div>""", unsafe_allow_html=True)
     else:
         st.markdown("""<div class="agb-content-wrap">
 <div class="agb-header">
-<h1>Terms and Conditions</h1>
+<h1>General Terms and Conditions</h1>
 <a href="/" class="agb-header__close">✕ Close</a>
 </div>
 <p class="agb-meta-date">SPEKTRUM Partner GmbH · Version: February 2026</p>
@@ -5958,126 +5925,93 @@ def show_agb_fullpage():
 <div class="agb-toc__title">Table of Contents</div>
 <ol>
 <li><a href="#a1">Scope</a></li>
-<li><a href="#a2">Subject Matter</a></li>
-<li><a href="#a3">Registration and Account</a></li>
-<li><a href="#a4">Services and Availability</a></li>
-<li><a href="#a5">Subscription and Pricing</a></li>
-<li><a href="#a6">Payment</a></li>
-<li><a href="#a7">Cancellation</a></li>
-<li><a href="#a8">Terms of Use</a></li>
-<li><a href="#a9">Data Processing and Privacy</a></li>
-<li><a href="#a10">Intellectual Property</a></li>
-<li><a href="#a11">Liability and Warranty</a></li>
-<li><a href="#a12">Amendments</a></li>
-<li><a href="#a13">Final Provisions</a></li>
+<li><a href="#a2">Service Description</a></li>
+<li><a href="#a3">Contract Conclusion and Registration</a></li>
+<li><a href="#a4">Prices and Payment</a></li>
+<li><a href="#a5">Free Trial Period</a></li>
+<li><a href="#a6">Cancellation</a></li>
+<li><a href="#a7">Terms of Use</a></li>
+<li><a href="#a8">Data Protection</a></li>
+<li><a href="#a9">Liability</a></li>
+<li><a href="#a10">Availability</a></li>
+<li><a href="#a11">Amendments to the Terms</a></li>
+<li><a href="#a12">Applicable Law and Jurisdiction</a></li>
 </ol>
 </nav>
 <div class="agb-section" id="a1">
-<div class="agb-section__heading"><span class="agb-num">1</span> Scope</div>
-<p>These Terms and Conditions apply to the use of the «MINU-AI» app (hereinafter «App» or «Service»), operated by SPEKTRUM Partner GmbH (hereinafter «Provider», «we»).</p>
-<div class="agb-contact">
-<p><strong>SPEKTRUM Partner GmbH</strong></p>
-<p>Josefstrasse 181, 8005 Zurich, Switzerland</p>
-<p>Email: <a href="mailto:minu-ai@spekt.ch">minu-ai@spekt.ch</a></p>
-<p>Website: <a href="https://minu-ai.ch" target="_blank" rel="noopener">https://minu-ai.ch</a></p>
-</div>
-<p>By registering and using the App, the user (hereinafter «Customer», «you») agrees to these Terms. Deviating terms of the Customer are not recognized unless the Provider has expressly agreed in writing.</p>
-<p>The App is intended for business customers (B2B). Use requires legal capacity of the Customer.</p>
+<div class="agb-section__heading"><span class="agb-num">§1</span> Scope</div>
+<p>These General Terms and Conditions apply to the use of the web application MINU-AI (hereinafter «Service»), provided by SPEKTRUM Partner GmbH, Josefstrasse 181, 8005 Zurich, Switzerland (hereinafter «Provider»).</p>
+<p>By registering or using the Service, the user accepts these Terms.</p>
 </div>
 <div class="agb-section" id="a2">
-<div class="agb-section__heading"><span class="agb-num">2</span> Subject Matter</div>
-<p>MINU-AI is an AI-powered application for the automated creation of meeting protocols. The service includes:</p>
+<div class="agb-section__heading"><span class="agb-num">§2</span> Service Description</div>
+<p>MINU-AI is a web-based application for the automated creation of meeting protocols. The Service includes:</p>
 <ul class="agb-list">
-<li>Uploading audio files (recordings of meetings, conferences, etc.)</li>
-<li>Automatic transcription of audio files using AI (speech-to-text)</li>
-<li>AI-powered creation of structured protocols from the transcription</li>
-<li>Providing protocols for download by the Customer</li>
+<li>Transcription of audio recordings using OpenAI Whisper</li>
+<li>Protocol generation using Artificial Intelligence (Mistral AI)</li>
+<li>Export as PDF and Word documents</li>
+<li>Email delivery of protocols</li>
 </ul>
-<p>The specific features and scope of services depend on the chosen subscription plan.</p>
 </div>
 <div class="agb-section" id="a3">
-<div class="agb-section__heading"><span class="agb-num">3</span> Registration and Account</div>
-<p>Registration is required to use the App. The Customer agrees to provide truthful and complete information during registration and to keep it up to date.</p>
-<p>Each account is assigned to one Customer. Access credentials must be kept confidential and must not be shared with third parties. The Customer is responsible for all activities under their account.</p>
-<p>In case of suspected unauthorized use, the Provider must be notified immediately.</p>
+<div class="agb-section__heading"><span class="agb-num">§3</span> Contract Conclusion and Registration</div>
+<p>3.1 The contract is concluded by registration and confirmation of the email address.</p>
+<p>3.2 The user must be at least 18 years old or have the consent of a legal guardian.</p>
+<p>3.3 Registration is intended for business or professional purposes only.</p>
 </div>
 <div class="agb-section" id="a4">
-<div class="agb-section__heading"><span class="agb-num">4</span> Services and Availability</div>
-<p>The Provider delivers services according to the current state of technology. We strive for high availability but cannot guarantee uninterrupted service.</p>
-<p>Scheduled maintenance will be announced in advance where possible. Short-term interruptions for urgent maintenance or security measures may occur at any time.</p>
-<div class="agb-highlight">
-<strong>AI Processing Note:</strong> The results of AI-powered transcription and protocol generation are machine-generated and may contain errors. The Customer is responsible for reviewing and approving all generated protocols. AI results do not constitute automated decision-making within the meaning of Art. 22 GDPR.
-</div>
+<div class="agb-section__heading"><span class="agb-num">§4</span> Prices and Payment</div>
+<p>4.1 Current prices are listed on the website. All prices are in Swiss Francs (CHF) including statutory value-added tax.</p>
+<p>4.2 Payment is made in advance by credit card through the payment service provider Stripe.</p>
+<p>4.3 For subscriptions, the contract automatically renews for the respective term unless cancelled in time.</p>
 </div>
 <div class="agb-section" id="a5">
-<div class="agb-section__heading"><span class="agb-num">5</span> Subscription and Pricing</div>
-<p>Use of the App is based on a paid subscription. Available subscriptions, their scope, and prices are listed on <a href="https://minu-ai.ch" target="_blank" rel="noopener" style="color:#7c3aed;">minu-ai.ch</a>.</p>
-<p>All prices are in Swiss Francs (CHF) and exclude statutory value-added tax unless otherwise stated.</p>
-<p>The Provider reserves the right to adjust prices for future billing periods with at least 30 days' notice. Existing, already paid billing periods remain unaffected.</p>
+<div class="agb-section__heading"><span class="agb-num">§5</span> Free Trial Period</div>
+<p>5.1 New users are granted a free trial period of 3 weeks with 60 minutes of transcription volume.</p>
+<p>5.2 After the trial period expires, access ends automatically unless a paid subscription is purchased.</p>
 </div>
 <div class="agb-section" id="a6">
-<div class="agb-section__heading"><span class="agb-num">6</span> Payment</div>
-<p>Billing is processed through the payment service provider Stripe. By registering, the Customer authorizes recurring charges to their stored payment method according to the chosen billing interval (monthly or annually).</p>
-<p>In case of failed payment, the Customer will be notified and given a reasonable period to settle. After unsuccessful expiry, access to the App may be restricted or suspended.</p>
-<p>Invoices are provided to the Customer electronically (by email or via the customer portal).</p>
+<div class="agb-section__heading"><span class="agb-num">§6</span> Cancellation</div>
+<p>6.1 Monthly subscriptions can be cancelled at any time effective at the end of the current billing period.</p>
+<p>6.2 Annual subscriptions can be cancelled with 30 days' notice effective at the end of the term.</p>
+<p>6.3 Cancellation is made via the customer portal or by email to <a href="mailto:minutes-ai@spekt.ch" style="color:#7c3aed;">minutes-ai@spekt.ch</a>.</p>
 </div>
 <div class="agb-section" id="a7">
-<div class="agb-section__heading"><span class="agb-num">7</span> Cancellation</div>
-<p>The subscription can be cancelled by the Customer at any time effective at the end of the current billing period. Cancellation is done via account settings in the App or by email to <a href="mailto:minu-ai@spekt.ch" style="color:#7c3aed;">minu-ai@spekt.ch</a>.</p>
-<p>After cancellation, access remains until the end of the paid period. Already paid fees are not refunded.</p>
-<p>The Provider may terminate the contract with 30 days' notice to the end of the month. In case of serious contract violations, immediate termination is possible.</p>
-<p>After termination, the Customer's account data will be deleted within 90 days, unless statutory retention obligations apply.</p>
+<div class="agb-section__heading"><span class="agb-num">§7</span> Terms of Use</div>
+<p>7.1 The user agrees to use the Service only for lawful purposes.</p>
+<p>7.2 Uploading illegal, offensive, or copyright-protected content without appropriate authorization is prohibited.</p>
+<p>7.3 The user is responsible for obtaining all necessary consents from persons appearing in the recordings.</p>
 </div>
 <div class="agb-section" id="a8">
-<div class="agb-section__heading"><span class="agb-num">8</span> Terms of Use</div>
-<p>The Customer agrees to use the App exclusively for lawful purposes. In particular, it is prohibited to:</p>
-<ul class="agb-list">
-<li>Use the App for unlawful, fraudulent, or harmful purposes</li>
-<li>Upload audio recordings made without the knowledge and consent of the recorded persons (where legally required)</li>
-<li>Technically manipulate, overload, or otherwise impair the App or its infrastructure</li>
-<li>Circumvent access or security mechanisms</li>
-<li>Use the App for automated mass processing beyond normal use</li>
-</ul>
-<p>The Customer is solely responsible for ensuring they have the necessary rights and consents to upload and process audio recordings. This includes compliance with local laws regarding conversation recording.</p>
+<div class="agb-section__heading"><span class="agb-num">§8</span> Data Protection</div>
+<p>The processing of personal data is carried out in accordance with our <a href="/?datenschutz=1" style="color:#7c3aed;">Privacy Policy</a>. The Provider complies with the requirements of the EU GDPR and the Swiss Data Protection Act (FADP).</p>
 </div>
 <div class="agb-section" id="a9">
-<div class="agb-section__heading"><span class="agb-num">9</span> Data Processing and Privacy</div>
-<p>Protecting personal data is important to us. Details about data processing can be found in our <a href="/?datenschutz=1" style="color:#7c3aed;">Privacy Policy</a>.</p>
-<p><strong>Audio Files:</strong> Uploaded audio files are processed exclusively for service provision (transcription and protocol generation) and are immediately deleted from our server after processing. No permanent storage of audio files takes place.</p>
-<p><strong>Transcripts and Protocols:</strong> Generated transcripts and protocols are not permanently stored on our servers. The Customer is responsible for downloading and storing their results.</p>
-<p><strong>Third-party Providers:</strong> For transcription we use the OpenAI Whisper API, for protocol generation Mistral AI. Data processing agreements (DPA) are in place with both providers.</p>
-<p><strong>No Model Training:</strong> Neither MINU-AI nor our third-party providers use Customer data for AI model training.</p>
-<p>Insofar as the Customer has personal data processed via the App as controller, the Provider acts as processor. Upon request, the Provider provides a data processing agreement (DPA) in accordance with Art. 28 GDPR and Art. 9 FADP.</p>
+<div class="agb-section__heading"><span class="agb-num">§9</span> Liability</div>
+<p>9.1 The Provider is liable without limitation for intent and gross negligence.</p>
+<p>9.2 For slight negligence, the Provider is only liable for breach of material contractual obligations, limited to foreseeable, contract-typical damages.</p>
+<p>9.3 Liability for the accuracy of AI-generated protocols is excluded. The user is responsible for reviewing the results.</p>
+<p>9.4 The Provider is not liable for damages caused by force majeure, failure of third-party services (OpenAI, Mistral AI), or unforeseeable technical disruptions.</p>
 </div>
 <div class="agb-section" id="a10">
-<div class="agb-section__heading"><span class="agb-num">10</span> Intellectual Property</div>
-<p>All rights to the App, including software, design, trademarks, and content, remain with the Provider. The Customer receives a simple, non-transferable right of use for the duration of the subscription.</p>
-<p>Audio files uploaded by the Customer and the protocols generated therefrom remain the property of the Customer. The Provider does not acquire any rights thereto.</p>
+<div class="agb-section__heading"><span class="agb-num">§10</span> Availability</div>
+<p>The Provider strives for an availability of 99% on an annual average. Maintenance work will be announced in advance where possible. No claim to uninterrupted availability exists.</p>
 </div>
 <div class="agb-section" id="a11">
-<div class="agb-section__heading"><span class="agb-num">11</span> Liability and Warranty</div>
-<p>The Provider is liable without limitation for damages resulting from injury to life, body, or health, as well as for damages caused intentionally or through gross negligence.</p>
-<p>Otherwise, the Provider's liability is limited to foreseeable, contract-typical damages, but no more than the amount paid by the Customer in the last 12 months.</p>
-<p>The Provider is not liable for:</p>
-<ul class="agb-list">
-<li>Content accuracy of AI-generated transcripts and protocols</li>
-<li>Damages arising from the use of erroneous AI results without adequate review</li>
-<li>Outages or restrictions due to force majeure or disruptions at third-party providers (particularly OpenAI, Mistral AI)</li>
-<li>Data loss insofar as the Customer has failed to take reasonable backup measures</li>
-</ul>
+<div class="agb-section__heading"><span class="agb-num">§11</span> Amendments to the Terms</div>
+<p>The Provider reserves the right to amend these Terms at any time. Amendments will be communicated to the user by email. If the user does not object within 30 days, the amendments are deemed accepted.</p>
 </div>
 <div class="agb-section" id="a12">
-<div class="agb-section__heading"><span class="agb-num">12</span> Amendments</div>
-<p>The Provider reserves the right to amend these Terms at any time. Amendments will be communicated to the Customer at least 30 days before taking effect by email.</p>
-<p>If the Customer does not object to the amendments within 30 days of receipt of the notification, the amended Terms are deemed accepted. This legal consequence will be specifically noted in the amendment notification.</p>
-<p>In case of objection, the Provider has the right to terminate the contract at the time the amended Terms take effect.</p>
+<div class="agb-section__heading"><span class="agb-num">§12</span> Applicable Law and Jurisdiction</div>
+<p>12.1 Swiss law applies exclusively, to the exclusion of the UN Convention on Contracts for the International Sale of Goods.</p>
+<p>12.2 The place of jurisdiction is Zurich, Switzerland. For consumers domiciled in the EU, the mandatory consumer protection provisions of the country of domicile additionally apply.</p>
 </div>
-<div class="agb-section" id="a13">
-<div class="agb-section__heading"><span class="agb-num">13</span> Final Provisions</div>
-<p><strong>Applicable Law:</strong> Swiss law applies to the exclusion of conflict of laws rules and the UN Convention on Contracts for the International Sale of Goods (CISG).</p>
-<p><strong>Jurisdiction:</strong> The exclusive place of jurisdiction for all disputes arising from or in connection with this contract is Zurich, Switzerland. Mandatory statutory jurisdictions remain reserved.</p>
-<p><strong>Severability Clause:</strong> Should any provision of these Terms be or become invalid, the validity of the remaining provisions shall not be affected. The invalid provision shall be replaced by a provision that most closely approximates the economic purpose of the invalid provision.</p>
-<p><strong>Written Form:</strong> Amendments and additions to these Terms require written form. This also applies to the waiver of the written form requirement.</p>
+<div class="agb-section" id="a13" style="margin-top: 2.5rem; padding-top: 1.5rem; border-top: 2px solid #e4e3df;">
+<div class="agb-section__heading"><span class="agb-num" style="background:#f59e0b;">!</span> Right of Withdrawal (EU Consumers)</div>
+<p><strong>Right of Withdrawal:</strong> You have the right to withdraw from this contract within 14 days without giving any reason. The withdrawal period is 14 days from the date of contract conclusion.</p>
+<p>To exercise your right of withdrawal, you must inform us (SPEKTRUM Partner GmbH, Josefstrasse 181, 8005 Zurich, Email: <a href="mailto:minutes-ai@spekt.ch" style="color:#7c3aed;">minutes-ai@spekt.ch</a>) of your decision to withdraw from this contract by means of a clear declaration.</p>
+<p><strong>Consequences of Withdrawal:</strong> If you withdraw from this contract, we shall reimburse all payments received from you without undue delay and no later than within 14 days.</p>
+<p><strong>Early Expiry:</strong> The right of withdrawal expires prematurely if we have begun performance of the contract after you have expressly consented. With MINU-AI, this consent is given by activating the Service (first use of the transcription function).</p>
 </div>
 </div>""", unsafe_allow_html=True)
 
@@ -6390,22 +6324,21 @@ def show_datenschutz_fullpage():
 <div class="ds-contact">
 <p><strong>SPEKTRUM Partner GmbH</strong></p>
 <p>Josefstrasse 181, 8005 Zürich, Schweiz</p>
-<p>E-Mail: <a href="mailto:minu-ai@spekt.ch">minu-ai@spekt.ch</a></p>
+<p>E-Mail: <a href="mailto:minutes-ai@spekt.ch">minutes-ai@spekt.ch</a></p>
 <p>Website: <a href="https://minu-ai.ch" target="_blank" rel="noopener">https://minu-ai.ch</a></p>
 </div>
 </div>
 <div class="ds-section" id="s2">
 <div class="ds-section__heading"><span class="ds-num">2</span> Datenschutzbeauftragter</div>
-<p>Ein Datenschutzbeauftragter ist nach Art. 37 DSGVO nicht bestellt, da die Voraussetzungen nicht erfüllt sind. Bei Fragen zum Datenschutz wenden Sie sich bitte an: <a href="mailto:minu-ai@spekt.ch" style="color:#7c3aed;">minu-ai@spekt.ch</a></p>
+<p>Ein Datenschutzbeauftragter ist nach Art. 37 DSGVO nicht bestellt, da die Voraussetzungen nicht erfüllt sind. Bei Fragen zum Datenschutz wenden Sie sich bitte an: <a href="mailto:minutes-ai@spekt.ch" style="color:#7c3aed;">minutes-ai@spekt.ch</a></p>
 </div>
 <div class="ds-section" id="s3">
 <div class="ds-section__heading"><span class="ds-num">3</span> EU-Vertreter (Art. 27 DSGVO)</div>
 <p>Da die SPEKTRUM Partner GmbH ihren Sitz ausserhalb der EU hat und Dienstleistungen an Personen im EWR anbietet, haben wir gemäss Art. 27 DSGVO folgenden Vertreter in der Europäischen Union benannt:</p>
-<div class="ds-contact" style="border-left: 4px solid #f59e0b;">
-<p><strong><!-- EU-VERTRETER NAME --></strong></p>
-<p><!-- ADRESSE --></p>
-<p>E-Mail: <!-- E-MAIL --></p>
-<p style="color: #f59e0b; font-size: 0.85rem; margin-top: 0.5rem;"><em>Platzhalter – nach Benennung des EU-Vertreters aktualisieren</em></p>
+<div class="ds-contact" style="border-left: 4px solid #7c3aed;">
+<p><strong>VGS Datenschutzpartner GmbH</strong></p>
+<p>Am Kaiserkai 69, 20457 Hamburg, Deutschland</p>
+<p>E-Mail: <a href="mailto:info@datenschutzpartner.eu" style="color:#7c3aed;">info@datenschutzpartner.eu</a></p>
 </div>
 <p>Der EU-Vertreter dient als Anlaufstelle für Aufsichtsbehörden und betroffene Personen in der EU bei sämtlichen Fragen im Zusammenhang mit der Datenverarbeitung.</p>
 </div>
@@ -6514,7 +6447,7 @@ def show_datenschutz_fullpage():
 </tbody>
 </table>
 </div>
-<p>Kontakt für Anfragen: <a href="mailto:minu-ai@spekt.ch" style="color:#7c3aed;">minu-ai@spekt.ch</a></p>
+<p>Kontakt für Anfragen: <a href="mailto:minutes-ai@spekt.ch" style="color:#7c3aed;">minutes-ai@spekt.ch</a></p>
 <p><strong>Beschwerderecht:</strong> Sie haben das Recht, sich bei der zuständigen Aufsichtsbehörde zu beschweren:</p>
 <ul class="ds-list">
 <li><strong>Schweiz:</strong> Eidgenössischer Datenschutz- und Öffentlichkeitsbeauftragter (EDÖB), Feldeggweg 1, 3003 Bern – <a href="https://www.edoeb.admin.ch" target="_blank" rel="noopener" style="color:#7c3aed;">www.edoeb.admin.ch</a></li>
@@ -6587,22 +6520,22 @@ def show_datenschutz_fullpage():
 <div class="ds-contact">
 <p><strong>SPEKTRUM Partner GmbH</strong></p>
 <p>Josefstrasse 181, 8005 Zurich, Switzerland</p>
-<p>Email: <a href="mailto:minu-ai@spekt.ch">minu-ai@spekt.ch</a></p>
+<p>Email: <a href="mailto:minutes-ai@spekt.ch">minutes-ai@spekt.ch</a></p>
 <p>Website: <a href="https://minu-ai.ch" target="_blank" rel="noopener">https://minu-ai.ch</a></p>
 </div>
 </div>
 <div class="ds-section" id="s2">
 <div class="ds-section__heading"><span class="ds-num">2</span> Data Protection Officer</div>
-<p>A Data Protection Officer is not appointed as the requirements under Art. 37 GDPR are not met. For privacy questions, please contact: <a href="mailto:minu-ai@spekt.ch" style="color:#7c3aed;">minu-ai@spekt.ch</a></p>
+<p>A Data Protection Officer is not appointed as the requirements under Art. 37 GDPR are not met. For privacy questions, please contact: <a href="mailto:minutes-ai@spekt.ch" style="color:#7c3aed;">minutes-ai@spekt.ch</a></p>
 </div>
 <div class="ds-section" id="s3">
 <div class="ds-section__heading"><span class="ds-num">3</span> EU Representative (Art. 27 GDPR)</div>
 <p>As SPEKTRUM Partner GmbH is based outside the EU and offers services to individuals in the EEA, we have appointed a representative in the European Union in accordance with Art. 27 GDPR:</p>
-<div class="ds-contact" style="border-left: 4px solid #f59e0b;">
-<p><strong><!-- EU REPRESENTATIVE NAME --></strong></p>
-<p><!-- ADDRESS --></p>
-<p>Email: <!-- EMAIL --></p>
-<p style="color: #f59e0b; font-size: 0.85rem; margin-top: 0.5rem;"><em>Placeholder – to be updated upon appointment of EU representative</em></p>
+<div class="ds-contact" style="border-left: 4px solid #7c3aed;">
+<p><strong>VGS Datenschutzpartner GmbH</strong></p>
+<p>Am Kaiserkai 69, 20457 Hamburg, Germany</p>
+<p>Email: <a href="mailto:info@datenschutzpartner.eu" style="color:#7c3aed;">info@datenschutzpartner.eu</a></p>
+<p>Website: <a href="https://www.datenschutzpartner.eu" target="_blank" rel="noopener" style="color:#7c3aed;">www.datenschutzpartner.eu</a></p>
 </div>
 <p>The EU representative serves as a point of contact for supervisory authorities and data subjects in the EU for all data processing matters.</p>
 </div>
@@ -6711,7 +6644,7 @@ def show_datenschutz_fullpage():
 </tbody>
 </table>
 </div>
-<p>Contact for inquiries: <a href="mailto:minu-ai@spekt.ch" style="color:#7c3aed;">minu-ai@spekt.ch</a></p>
+<p>Contact for inquiries: <a href="mailto:minutes-ai@spekt.ch" style="color:#7c3aed;">minutes-ai@spekt.ch</a></p>
 <p><strong>Right to complain:</strong> You have the right to lodge a complaint with the competent supervisory authority:</p>
 <ul class="ds-list">
 <li><strong>Switzerland:</strong> Federal Data Protection and Information Commissioner (FDPIC), Feldeggweg 1, 3003 Bern – <a href="https://www.edoeb.admin.ch" target="_blank" rel="noopener" style="color:#7c3aed;">www.edoeb.admin.ch</a></li>
