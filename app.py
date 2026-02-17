@@ -5894,7 +5894,7 @@ def show_agb_fullpage():
 </div>
 <div class="agb-section" id="a10">
 <div class="agb-section__heading"><span class="agb-num">§10</span> Verfügbarkeit</div>
-<p>Der Anbieter bemüht sich um eine Verfügbarkeit von 99% im Jahresmittel. Wartungsarbeiten werden nach Möglichkeit vorab angekündigt. Ein Anspruch auf ununterbrochene Verfügbarkeit besteht nicht.</p>
+<p>Der Anbieter bemüht sich um eine hohe Verfügbarkeit des Dienstes, kann jedoch keine ununterbrochene Verfügbarkeit garantieren. Wartungsarbeiten werden nach Möglichkeit vorab angekündigt.</p>
 </div>
 <div class="agb-section" id="a11">
 <div class="agb-section__heading"><span class="agb-num">§11</span> Änderungen der AGB</div>
@@ -5993,7 +5993,7 @@ def show_agb_fullpage():
 </div>
 <div class="agb-section" id="a10">
 <div class="agb-section__heading"><span class="agb-num">§10</span> Availability</div>
-<p>The Provider strives for an availability of 99% on an annual average. Maintenance work will be announced in advance where possible. No claim to uninterrupted availability exists.</p>
+<p>The Provider strives for high availability of the Service but cannot guarantee uninterrupted availability. Maintenance work will be announced in advance where possible.</p>
 </div>
 <div class="agb-section" id="a11">
 <div class="agb-section__heading"><span class="agb-num">§11</span> Amendments to the Terms</div>
