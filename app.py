@@ -5911,6 +5911,202 @@ def show_agb_fullpage():
 <p>Vertragsbeendigungen sind ausschliesslich nach den Kündigungsregelungen in §6 möglich.</p>
 </div>
 </div>""", unsafe_allow_html=True)
+    elif lang == "fr":
+        st.markdown("""<div class="agb-content-wrap">
+<div class="agb-header">
+<h1>Conditions Générales</h1>
+<a href="/" class="agb-header__close">✕ Fermer</a>
+</div>
+<p class="agb-meta-date">SPEKTRUM Partner GmbH · Version : Février 2026</p>
+<nav class="agb-toc">
+<div class="agb-toc__title">Table des matières</div>
+<ol>
+<li><a href="#a1">Champ d'application</a></li>
+<li><a href="#a2">Description du service</a></li>
+<li><a href="#a3">Conclusion du contrat et inscription</a></li>
+<li><a href="#a4">Prix et paiement</a></li>
+<li><a href="#a5">Période d'essai gratuite</a></li>
+<li><a href="#a6">Résiliation</a></li>
+<li><a href="#a7">Conditions d'utilisation</a></li>
+<li><a href="#a8">Protection des données</a></li>
+<li><a href="#a9">Responsabilité</a></li>
+<li><a href="#a10">Disponibilité</a></li>
+<li><a href="#a11">Modifications des conditions</a></li>
+<li><a href="#a12">Droit applicable et for juridique</a></li>
+</ol>
+</nav>
+<div class="agb-section" id="a1">
+<div class="agb-section__heading"><span class="agb-num">§1</span> Champ d'application</div>
+<p>Les présentes Conditions Générales s'appliquent à l'utilisation de l'application web MINU-AI (ci-après «Service»), fournie par SPEKTRUM Partner GmbH, Josefstrasse 181, 8005 Zurich, Suisse (ci-après «Fournisseur»).</p>
+<p>En s'inscrivant ou en utilisant le Service, l'utilisateur accepte les présentes Conditions.</p>
+</div>
+<div class="agb-section" id="a2">
+<div class="agb-section__heading"><span class="agb-num">§2</span> Description du service</div>
+<p>MINU-AI est une application web destinée à la création automatisée de procès-verbaux de réunion. Le Service comprend :</p>
+<ul class="agb-list">
+<li>Transcription d'enregistrements audio à l'aide d'OpenAI Whisper</li>
+<li>Génération de procès-verbaux par intelligence artificielle (Mistral AI)</li>
+<li>Exportation au format PDF et Word</li>
+<li>Envoi des procès-verbaux par e-mail</li>
+</ul>
+</div>
+<div class="agb-section" id="a3">
+<div class="agb-section__heading"><span class="agb-num">§3</span> Conclusion du contrat et inscription</div>
+<p>3.1 Le contrat est conclu par l'inscription et la confirmation de l'adresse e-mail.</p>
+<p>3.2 L'utilisateur doit être âgé d'au moins 18 ans ou disposer du consentement d'un représentant légal.</p>
+<p>3.3 L'inscription est destinée exclusivement à un usage professionnel ou commercial.</p>
+</div>
+<div class="agb-section" id="a4">
+<div class="agb-section__heading"><span class="agb-num">§4</span> Prix et paiement</div>
+<p>4.1 Les prix en vigueur sont indiqués sur le site web. Tous les prix sont en francs suisses (CHF), taxe sur la valeur ajoutée légale incluse.</p>
+<p>4.2 Le paiement s'effectue à l'avance par carte de crédit via le prestataire de services de paiement Stripe.</p>
+<p>4.3 Pour les abonnements, le contrat se renouvelle automatiquement pour la durée respective, sauf résiliation dans les délais.</p>
+</div>
+<div class="agb-section" id="a5">
+<div class="agb-section__heading"><span class="agb-num">§5</span> Période d'essai gratuite</div>
+<p>5.1 Les nouveaux utilisateurs bénéficient d'une période d'essai gratuite de 3 semaines avec un volume de transcription de 60 minutes.</p>
+<p>5.2 À l'expiration de la période d'essai, l'accès prend fin automatiquement, sauf souscription d'un abonnement payant.</p>
+</div>
+<div class="agb-section" id="a6">
+<div class="agb-section__heading"><span class="agb-num">§6</span> Résiliation</div>
+<p>6.1 Les abonnements mensuels peuvent être résiliés à tout moment avec effet à la fin de la période de facturation en cours.</p>
+<p>6.2 Les abonnements annuels peuvent être résiliés à tout moment avec effet à la fin de la durée contractuelle en cours.</p>
+</div>
+<div class="agb-section" id="a7">
+<div class="agb-section__heading"><span class="agb-num">§7</span> Conditions d'utilisation</div>
+<p>7.1 L'utilisateur s'engage à utiliser le Service uniquement à des fins licites.</p>
+<p>7.2 Le téléchargement de contenus illicites, offensants ou protégés par le droit d'auteur sans autorisation appropriée est interdit.</p>
+<p>7.3 L'utilisateur est responsable de l'obtention de tous les consentements nécessaires des personnes apparaissant dans les enregistrements.</p>
+</div>
+<div class="agb-section" id="a8">
+<div class="agb-section__heading"><span class="agb-num">§8</span> Protection des données</div>
+<p>Le traitement des données personnelles est effectué conformément à notre <a href="/?datenschutz=1" style="color:#7c3aed;">Politique de confidentialité</a>. Le Fournisseur respecte les exigences du RGPD de l'UE et de la Loi fédérale sur la protection des données (LPD).</p>
+</div>
+<div class="agb-section" id="a9">
+<div class="agb-section__heading"><span class="agb-num">§9</span> Responsabilité</div>
+<p>9.1 La responsabilité du Fournisseur est – dans la mesure permise par la loi – limitée au dol (faute intentionnelle). La responsabilité pour négligence est exclue.</p>
+<p>9.2 En tout état de cause, la responsabilité totale du Fournisseur est limitée aux montants versés par l'utilisateur au cours des 12 mois précédents.</p>
+<p>9.3 La responsabilité quant à l'exactitude des procès-verbaux générés par l'IA est exclue. L'utilisateur est tenu de vérifier les résultats.</p>
+<p>9.4 Le Fournisseur n'est pas responsable des dommages causés par un cas de force majeure, une défaillance de services tiers (OpenAI, Mistral AI) ou des perturbations techniques imprévisibles.</p>
+<p>9.5 Les limitations de responsabilité susmentionnées ne s'appliquent pas aux dommages résultant d'une atteinte à la vie, à l'intégrité corporelle ou à la santé.</p>
+</div>
+<div class="agb-section" id="a10">
+<div class="agb-section__heading"><span class="agb-num">§10</span> Disponibilité</div>
+<p>Le Fournisseur s'efforce d'assurer une haute disponibilité du Service, mais ne peut garantir une disponibilité ininterrompue. Les travaux de maintenance seront annoncés à l'avance dans la mesure du possible.</p>
+</div>
+<div class="agb-section" id="a11">
+<div class="agb-section__heading"><span class="agb-num">§11</span> Modifications des conditions</div>
+<p>Le Fournisseur se réserve le droit de modifier les présentes Conditions à tout moment. Les modifications seront communiquées à l'utilisateur par e-mail. Si l'utilisateur ne s'y oppose pas dans un délai de 30 jours, les modifications sont réputées acceptées.</p>
+</div>
+<div class="agb-section" id="a12">
+<div class="agb-section__heading"><span class="agb-num">§12</span> Droit applicable et for juridique</div>
+<p>12.1 Le droit suisse s'applique exclusivement, à l'exclusion de la Convention des Nations Unies sur les contrats de vente internationale de marchandises.</p>
+<p>12.2 Le for juridique est Zurich, Suisse. Pour les consommateurs domiciliés dans l'UE, les dispositions impératives de protection des consommateurs du pays de domicile s'appliquent en outre.</p>
+</div>
+<div class="agb-section" id="a13" style="margin-top: 2.5rem; padding-top: 1.5rem; border-top: 2px solid #e4e3df;">
+<div class="agb-section__heading"><span class="agb-num" style="background:#7c3aed;">B2B</span> Droit de rétractation – Exclusion</div>
+<p>MINU-AI est destiné exclusivement aux clients professionnels (B2B). Par conséquent, aucun droit légal de rétractation au titre de la Directive européenne 2011/83/UE relative aux droits des consommateurs ne s'applique.</p>
+<p>Les résiliations de contrat ne sont possibles que conformément aux dispositions de résiliation du §6.</p>
+</div>
+</div>""", unsafe_allow_html=True)
+    elif lang == "it":
+        st.markdown("""<div class="agb-content-wrap">
+<div class="agb-header">
+<h1>Condizioni Generali</h1>
+<a href="/" class="agb-header__close">✕ Chiudi</a>
+</div>
+<p class="agb-meta-date">SPEKTRUM Partner GmbH · Versione: Febbraio 2026</p>
+<nav class="agb-toc">
+<div class="agb-toc__title">Indice</div>
+<ol>
+<li><a href="#a1">Ambito di applicazione</a></li>
+<li><a href="#a2">Descrizione del servizio</a></li>
+<li><a href="#a3">Conclusione del contratto e registrazione</a></li>
+<li><a href="#a4">Prezzi e pagamento</a></li>
+<li><a href="#a5">Periodo di prova gratuito</a></li>
+<li><a href="#a6">Disdetta</a></li>
+<li><a href="#a7">Condizioni d'uso</a></li>
+<li><a href="#a8">Protezione dei dati</a></li>
+<li><a href="#a9">Responsabilità</a></li>
+<li><a href="#a10">Disponibilità</a></li>
+<li><a href="#a11">Modifiche delle condizioni</a></li>
+<li><a href="#a12">Diritto applicabile e foro competente</a></li>
+</ol>
+</nav>
+<div class="agb-section" id="a1">
+<div class="agb-section__heading"><span class="agb-num">§1</span> Ambito di applicazione</div>
+<p>Le presenti Condizioni Generali si applicano all'utilizzo dell'applicazione web MINU-AI (di seguito «Servizio»), fornita da SPEKTRUM Partner GmbH, Josefstrasse 181, 8005 Zurigo, Svizzera (di seguito «Fornitore»).</p>
+<p>Con la registrazione o l'utilizzo del Servizio, l'utente accetta le presenti Condizioni.</p>
+</div>
+<div class="agb-section" id="a2">
+<div class="agb-section__heading"><span class="agb-num">§2</span> Descrizione del servizio</div>
+<p>MINU-AI è un'applicazione web per la creazione automatizzata di verbali di riunione. Il Servizio comprende:</p>
+<ul class="agb-list">
+<li>Trascrizione di registrazioni audio tramite OpenAI Whisper</li>
+<li>Generazione di verbali mediante intelligenza artificiale (Mistral AI)</li>
+<li>Esportazione in formato PDF e Word</li>
+<li>Invio dei verbali tramite e-mail</li>
+</ul>
+</div>
+<div class="agb-section" id="a3">
+<div class="agb-section__heading"><span class="agb-num">§3</span> Conclusione del contratto e registrazione</div>
+<p>3.1 Il contratto si conclude con la registrazione e la conferma dell'indirizzo e-mail.</p>
+<p>3.2 L'utente deve avere almeno 18 anni o disporre del consenso di un rappresentante legale.</p>
+<p>3.3 La registrazione è destinata esclusivamente a scopi professionali o commerciali.</p>
+</div>
+<div class="agb-section" id="a4">
+<div class="agb-section__heading"><span class="agb-num">§4</span> Prezzi e pagamento</div>
+<p>4.1 I prezzi attuali sono indicati sul sito web. Tutti i prezzi sono espressi in franchi svizzeri (CHF), imposta sul valore aggiunto legale inclusa.</p>
+<p>4.2 Il pagamento avviene anticipatamente tramite carta di credito attraverso il fornitore di servizi di pagamento Stripe.</p>
+<p>4.3 Per gli abbonamenti, il contratto si rinnova automaticamente per la rispettiva durata, salvo disdetta tempestiva.</p>
+</div>
+<div class="agb-section" id="a5">
+<div class="agb-section__heading"><span class="agb-num">§5</span> Periodo di prova gratuito</div>
+<p>5.1 Ai nuovi utenti viene concesso un periodo di prova gratuito di 3 settimane con un volume di trascrizione di 60 minuti.</p>
+<p>5.2 Alla scadenza del periodo di prova, l'accesso termina automaticamente, salvo sottoscrizione di un abbonamento a pagamento.</p>
+</div>
+<div class="agb-section" id="a6">
+<div class="agb-section__heading"><span class="agb-num">§6</span> Disdetta</div>
+<p>6.1 Gli abbonamenti mensili possono essere disdetti in qualsiasi momento con effetto alla fine del periodo di fatturazione in corso.</p>
+<p>6.2 Gli abbonamenti annuali possono essere disdetti in qualsiasi momento con effetto alla fine della durata contrattuale in corso.</p>
+</div>
+<div class="agb-section" id="a7">
+<div class="agb-section__heading"><span class="agb-num">§7</span> Condizioni d'uso</div>
+<p>7.1 L'utente si impegna a utilizzare il Servizio esclusivamente per scopi leciti.</p>
+<p>7.2 Il caricamento di contenuti illeciti, offensivi o protetti dal diritto d'autore senza apposita autorizzazione è vietato.</p>
+<p>7.3 L'utente è responsabile dell'ottenimento di tutti i consensi necessari delle persone che compaiono nelle registrazioni.</p>
+</div>
+<div class="agb-section" id="a8">
+<div class="agb-section__heading"><span class="agb-num">§8</span> Protezione dei dati</div>
+<p>Il trattamento dei dati personali avviene conformemente alla nostra <a href="/?datenschutz=1" style="color:#7c3aed;">Informativa sulla privacy</a>. Il Fornitore rispetta i requisiti del RGPD dell'UE e della Legge federale sulla protezione dei dati (LPD).</p>
+</div>
+<div class="agb-section" id="a9">
+<div class="agb-section__heading"><span class="agb-num">§9</span> Responsabilità</div>
+<p>9.1 La responsabilità del Fornitore è – nella misura consentita dalla legge – limitata al dolo (condotta intenzionale). La responsabilità per negligenza è esclusa.</p>
+<p>9.2 In ogni caso, la responsabilità complessiva del Fornitore è limitata agli importi versati dall'utente nei 12 mesi precedenti.</p>
+<p>9.3 La responsabilità per l'accuratezza dei verbali generati dall'IA è esclusa. L'utente è tenuto a verificare i risultati.</p>
+<p>9.4 Il Fornitore non è responsabile per danni causati da forza maggiore, guasti di servizi di terzi (OpenAI, Mistral AI) o perturbazioni tecniche imprevedibili.</p>
+<p>9.5 Le suddette limitazioni di responsabilità non si applicano ai danni derivanti da lesioni alla vita, all'integrità fisica o alla salute.</p>
+</div>
+<div class="agb-section" id="a10">
+<div class="agb-section__heading"><span class="agb-num">§10</span> Disponibilità</div>
+<p>Il Fornitore si adopera per garantire un'elevata disponibilità del Servizio, ma non può garantire una disponibilità ininterrotta. I lavori di manutenzione saranno comunicati in anticipo nella misura del possibile.</p>
+</div>
+<div class="agb-section" id="a11">
+<div class="agb-section__heading"><span class="agb-num">§11</span> Modifiche delle condizioni</div>
+<p>Il Fornitore si riserva il diritto di modificare le presenti Condizioni in qualsiasi momento. Le modifiche saranno comunicate all'utente tramite e-mail. Se l'utente non si oppone entro 30 giorni, le modifiche si considerano accettate.</p>
+</div>
+<div class="agb-section" id="a12">
+<div class="agb-section__heading"><span class="agb-num">§12</span> Diritto applicabile e foro competente</div>
+<p>12.1 Si applica esclusivamente il diritto svizzero, con esclusione della Convenzione delle Nazioni Unite sui contratti di compravendita internazionale di merci.</p>
+<p>12.2 Il foro competente è Zurigo, Svizzera. Per i consumatori domiciliati nell'UE, si applicano inoltre le disposizioni imperative in materia di protezione dei consumatori del Paese di domicilio.</p>
+</div>
+<div class="agb-section" id="a13" style="margin-top: 2.5rem; padding-top: 1.5rem; border-top: 2px solid #e4e3df;">
+<div class="agb-section__heading"><span class="agb-num" style="background:#7c3aed;">B2B</span> Diritto di recesso – Esclusione</div>
+<p>MINU-AI è destinato esclusivamente a clienti commerciali (B2B). Pertanto, non si applica alcun diritto legale di recesso ai sensi della Direttiva europea 2011/83/UE sui diritti dei consumatori.</p>
+<p>Le risoluzioni contrattuali sono possibili unicamente in conformità alle disposizioni di disdetta di cui al §6.</p>
+</div>
+</div>""", unsafe_allow_html=True)
     else:
         st.markdown("""<div class="agb-content-wrap">
 <div class="agb-header">
@@ -6483,6 +6679,400 @@ def show_datenschutz_fullpage():
 <p>Die aktuelle Fassung ist stets abrufbar. Bei wesentlichen Änderungen informieren wir registrierte Nutzer per E-Mail.</p>
 </div>
 </div>""", unsafe_allow_html=True)
+    elif lang == "fr":
+        st.markdown("""<div class="ds-content-wrap">
+<div class="ds-header">
+<h1>Politique de confidentialité</h1>
+<a href="/" class="ds-header__close">✕ Fermer</a>
+</div>
+<p class="ds-meta-date">SPEKTRUM Partner GmbH · Version : Février 2026</p>
+<nav class="ds-toc">
+<div class="ds-toc__title">Table des matières</div>
+<ol>
+<li><a href="#s1">Responsable du traitement</a></li>
+<li><a href="#s2">Délégué à la protection des données</a></li>
+<li><a href="#s3">Représentant dans l'UE</a></li>
+<li><a href="#s4">Droit applicable</a></li>
+<li><a href="#s5">Données collectées et finalités</a></li>
+<li><a href="#s6">Sous-traitants</a></li>
+<li><a href="#s7">Flux des données audio</a></li>
+<li><a href="#s8">Conservation et suppression</a></li>
+<li><a href="#s9">Transfert vers des pays tiers</a></li>
+<li><a href="#s10">Vos droits</a></li>
+<li><a href="#s11">Cookies et suivi</a></li>
+<li><a href="#s12">Décision automatisée</a></li>
+<li><a href="#s13">Sécurité des données</a></li>
+<li><a href="#s14">Obligation de fournir des données</a></li>
+<li><a href="#s15">Modifications</a></li>
+</ol>
+</nav>
+<div class="ds-section" id="s1">
+<div class="ds-section__heading"><span class="ds-num">1</span> Responsable du traitement</div>
+<div class="ds-contact">
+<p><strong>SPEKTRUM Partner GmbH</strong></p>
+<p>Josefstrasse 181, 8005 Zurich, Suisse</p>
+<p>E-mail : <a href="mailto:minutes-ai@spekt.ch">minutes-ai@spekt.ch</a></p>
+<p>Site web : <a href="https://minu-ai.ch" target="_blank" rel="noopener">https://minu-ai.ch</a></p>
+</div>
+</div>
+<div class="ds-section" id="s2">
+<div class="ds-section__heading"><span class="ds-num">2</span> Délégué à la protection des données</div>
+<p>Aucun délégué à la protection des données n'a été désigné, les conditions prévues à l'art. 37 RGPD n'étant pas remplies. Pour toute question relative à la protection des données, veuillez contacter : <a href="mailto:minutes-ai@spekt.ch" style="color:#7c3aed;">minutes-ai@spekt.ch</a></p>
+</div>
+<div class="ds-section" id="s3">
+<div class="ds-section__heading"><span class="ds-num">3</span> Représentant dans l'UE (art. 27 RGPD)</div>
+<p>SPEKTRUM Partner GmbH étant établie en dehors de l'UE et proposant des services à des personnes situées dans l'EEE, nous avons désigné un représentant dans l'Union européenne conformément à l'art. 27 RGPD :</p>
+<div class="ds-contact" style="border-left: 4px solid #7c3aed;">
+<p><strong>VGS Datenschutzpartner GmbH</strong></p>
+<p>Am Kaiserkai 69, 20457 Hambourg, Allemagne</p>
+<p>E-mail : <a href="mailto:info@datenschutzpartner.eu" style="color:#7c3aed;">info@datenschutzpartner.eu</a></p>
+<p>Site web : <a href="https://www.datenschutzpartner.eu" target="_blank" rel="noopener" style="color:#7c3aed;">www.datenschutzpartner.eu</a></p>
+</div>
+<p>Le représentant dans l'UE sert de point de contact pour les autorités de contrôle et les personnes concernées dans l'UE pour toutes les questions relatives au traitement des données.</p>
+</div>
+<div class="ds-section" id="s4">
+<div class="ds-section__heading"><span class="ds-num">4</span> Droit applicable et champ d'application</div>
+<p>La présente politique de confidentialité s'applique à l'utilisation de l'application « MINU-AI » et du site web minu-ai.ch.</p>
+<p>Le traitement des données personnelles est effectué conformément à la <strong>Loi fédérale suisse sur la protection des données (LPD/nLPD)</strong> et, le cas échéant, au <strong>Règlement général européen sur la protection des données (RGPD)</strong>.</p>
+<p>La LPD suisse s'applique car notre entreprise est établie en Suisse. Le RGPD s'applique en outre dans la mesure où nous proposons des services à des personnes situées dans l'Espace économique européen (EEE) (art. 3, al. 2 RGPD).</p>
+</div>
+<div class="ds-section" id="s5">
+<div class="ds-section__heading"><span class="ds-num">5</span> Données collectées et finalités</div>
+<p>Nous traitons les données personnelles suivantes :</p>
+<div class="ds-data-cat">
+<div class="ds-data-cat__title">Données d'inscription</div>
+<div class="ds-data-cat__detail">Nom de l'entreprise, adresse e-mail</div>
+<div class="ds-data-cat__detail">Finalité : Exécution du contrat, accès au compte, communication</div>
+<div class="ds-data-cat__legal">Base juridique : Art. 6, al. 1, let. b RGPD (exécution du contrat) ; art. 31, al. 1 LPD</div>
+</div>
+<div class="ds-data-cat">
+<div class="ds-data-cat__title">Données audio</div>
+<div class="ds-data-cat__detail">Fichiers audio téléchargés pour la transcription</div>
+<div class="ds-data-cat__detail">Finalité : Fourniture du service (transcription et génération de procès-verbaux)</div>
+<div class="ds-data-cat__legal">Base juridique : Art. 6, al. 1, let. b RGPD (exécution du contrat) ; art. 31, al. 1 LPD</div>
+</div>
+<div class="ds-data-cat">
+<div class="ds-data-cat__title">Données techniques</div>
+<div class="ds-data-cat__detail">Adresse IP, type de navigateur, système d'exploitation, heures d'accès</div>
+<div class="ds-data-cat__detail">Finalité : Sécurité, analyse des erreurs</div>
+<div class="ds-data-cat__legal">Base juridique : Art. 6, al. 1, let. f RGPD (intérêt légitime) ; art. 31, al. 1 LPD</div>
+</div>
+</div>
+<div class="ds-section" id="s6">
+<div class="ds-section__heading"><span class="ds-num">6</span> Sous-traitants</div>
+<p>Nous faisons appel à des prestataires tiers soigneusement sélectionnés (sous-traitants) pour nos services. Un contrat de sous-traitance (CST) est conclu avec chaque prestataire conformément à l'art. 28 RGPD et à l'art. 9 LPD.</p>
+<div class="ds-table-wrap">
+<table class="ds-table">
+<thead>
+<tr><th>Prestataire</th><th>Localisation</th><th>Finalité</th><th>Protection des données</th></tr>
+</thead>
+<tbody>
+<tr><td>OpenAI, Inc.</td><td>États-Unis</td><td>API Whisper – Transcription</td><td>CST, CCT, EU-US DPF</td></tr>
+<tr><td>Mistral AI SAS</td><td>France (UE)</td><td>Génération de procès-verbaux par IA</td><td>CST, RGPD natif</td></tr>
+<tr><td>Stripe, Inc.</td><td>États-Unis</td><td>Traitement des paiements</td><td>CST, PCI DSS, CCT</td></tr>
+<tr><td>Hetzner Online GmbH</td><td>Allemagne (UE)</td><td>Hébergement serveur</td><td>CST, ISO 27001</td></tr>
+<tr><td>Umami (auto-hébergé)</td><td>Allemagne (UE)</td><td>Analyse web respectueuse de la vie privée</td><td>Auto-hébergé, aucune DCP</td></tr>
+</tbody>
+</table>
+</div>
+<p>Les fichiers audio téléchargés pour la transcription sont temporairement transmis à OpenAI (États-Unis) et immédiatement supprimés de notre serveur après traitement. OpenAI conserve les données API jusqu'à 30 jours par défaut à des fins de surveillance des abus. Les données ne sont pas utilisées par OpenAI pour l'entraînement de modèles.</p>
+<p>La génération des procès-verbaux est assurée par Mistral AI (France/UE). Mistral est directement soumis au RGPD et ne traite que du texte – aucun fichier audio.</p>
+</div>
+<div class="ds-section" id="s7">
+<div class="ds-section__heading"><span class="ds-num">7</span> Flux des données audio</div>
+<p>Vos fichiers audio sont traités selon les étapes suivantes :</p>
+<ol class="ds-steps">
+<li>Vous téléchargez un fichier audio sur MINU-AI</li>
+<li>Le fichier est temporairement stocké sur notre serveur (Hetzner, Allemagne)</li>
+<li>Le fichier audio est envoyé de manière chiffrée (TLS) à l'API OpenAI Whisper</li>
+<li>OpenAI renvoie le texte transcrit</li>
+<li><strong>Le fichier audio est immédiatement supprimé de notre serveur</strong></li>
+<li>Le texte de la transcription est envoyé de manière chiffrée à Mistral AI</li>
+<li>Mistral AI crée un procès-verbal structuré et le renvoie</li>
+<li>Le procès-verbal vous est affiché – aucun stockage permanent côté serveur</li>
+</ol>
+<div class="ds-highlight">
+<strong>Important :</strong> MINU-AI ne stocke pas de manière permanente les fichiers audio ni les transcriptions sur le serveur. Le fichier audio n'existe que pendant le traitement actif.
+</div>
+</div>
+<div class="ds-section" id="s8">
+<div class="ds-section__heading"><span class="ds-num">8</span> Durée de conservation et suppression</div>
+<ul class="ds-list">
+<li><strong>Données audio :</strong> Supprimées immédiatement après le traitement, aucun stockage permanent</li>
+<li><strong>Transcriptions/Procès-verbaux :</strong> Non stockés côté serveur, uniquement en local par l'utilisateur</li>
+<li><strong>Données de compte :</strong> Jusqu'à la suppression du compte ou 3 ans après la dernière activité</li>
+<li><strong>Données de facturation :</strong> 10 ans (obligation légale de conservation)</li>
+<li><strong>Chez OpenAI (par défaut) :</strong> Jusqu'à 30 jours pour la surveillance des abus (activation ZDR en cours d'examen)</li>
+<li><strong>Chez Mistral AI :</strong> Aucun stockage au-delà du traitement pour l'utilisation de l'API</li>
+</ul>
+</div>
+<div class="ds-section" id="s9">
+<div class="ds-section__heading"><span class="ds-num">9</span> Transfert de données vers des pays tiers</div>
+<p>Lors de l'utilisation de services américains (OpenAI, Stripe), des données sont transférées aux États-Unis. Ce transfert repose sur :</p>
+<ul class="ds-list">
+<li>Le cadre de protection des données UE-États-Unis (DPF)</li>
+<li>Les clauses contractuelles types (CCT)</li>
+<li>Des garanties techniques supplémentaires (chiffrement en transit)</li>
+</ul>
+<p>Le traitement par Mistral AI (France) et Hetzner (Allemagne) s'effectue entièrement au sein de l'UE. Aucun transfert vers un pays tiers n'a lieu dans ce cadre.</p>
+</div>
+<div class="ds-section" id="s10">
+<div class="ds-section__heading"><span class="ds-num">10</span> Vos droits</div>
+<p>Vous disposez des droits suivants :</p>
+<div class="ds-table-wrap">
+<table class="ds-table">
+<thead>
+<tr><th>Droit</th><th>RGPD</th><th>LPD suisse</th></tr>
+</thead>
+<tbody>
+<tr><td>Accès</td><td>Art. 15 RGPD</td><td>Art. 25 LPD</td></tr>
+<tr><td>Rectification</td><td>Art. 16 RGPD</td><td>Art. 32, al. 1 LPD</td></tr>
+<tr><td>Effacement</td><td>Art. 17 RGPD</td><td>Art. 32, al. 2, let. c LPD</td></tr>
+<tr><td>Limitation du traitement</td><td>Art. 18 RGPD</td><td>–</td></tr>
+<tr><td>Portabilité des données</td><td>Art. 20 RGPD</td><td>Art. 28 LPD</td></tr>
+<tr><td>Opposition</td><td>Art. 21 RGPD</td><td>Art. 32, al. 2, let. b LPD</td></tr>
+<tr><td>Réclamation</td><td>Autorité de contrôle compétente</td><td>PFPDT (voir ci-dessous)</td></tr>
+</tbody>
+</table>
+</div>
+<p>Contact pour les demandes : <a href="mailto:minutes-ai@spekt.ch" style="color:#7c3aed;">minutes-ai@spekt.ch</a></p>
+<p><strong>Droit de réclamation :</strong> Vous avez le droit d'introduire une réclamation auprès de l'autorité de contrôle compétente :</p>
+<ul class="ds-list">
+<li><strong>Suisse :</strong> Préposé fédéral à la protection des données et à la transparence (PFPDT), Feldeggweg 1, 3003 Berne – <a href="https://www.edoeb.admin.ch" target="_blank" rel="noopener" style="color:#7c3aed;">www.edoeb.admin.ch</a></li>
+<li><strong>UE :</strong> L'autorité de contrôle compétente pour vous selon la <a href="https://edpb.europa.eu/about-edpb/about-edpb/members_en" target="_blank" rel="noopener" style="color:#7c3aed;">liste des membres du CEPD</a></li>
+</ul>
+</div>
+<div class="ds-section" id="s11">
+<div class="ds-section__heading"><span class="ds-num">11</span> Cookies et suivi</div>
+<ul class="ds-list">
+<li>Nous utilisons uniquement des cookies de session techniquement nécessaires</li>
+<li>Pour l'analyse du site web, nous utilisons <strong>Umami Analytics</strong> – un outil respectueux de la vie privée, sans cookies, sans collecte de données personnelles et sans suivi inter-sites</li>
+<li>Pas de Google Analytics, pas de cookies publicitaires, pas de partage avec des tiers</li>
+</ul>
+<p>Base juridique : Art. 6, al. 1, let. f RGPD (intérêt légitime) ; art. 31, al. 1 LPD</p>
+</div>
+<div class="ds-section" id="s12">
+<div class="ds-section__heading"><span class="ds-num">12</span> Décision automatisée</div>
+<p>La transcription et la génération de procès-verbaux par intelligence artificielle ne constituent pas une prise de décision automatisée au sens de l'art. 22 RGPD, car aucun effet juridique ou similairement significatif n'en résulte. Les résultats servent d'aide et nécessitent toujours une vérification par l'utilisateur.</p>
+</div>
+<div class="ds-section" id="s13">
+<div class="ds-section__heading"><span class="ds-num">13</span> Sécurité des données</div>
+<p>Nous mettons en œuvre des mesures techniques et organisationnelles conformes à l'état de la technique pour protéger vos données, notamment :</p>
+<ul class="ds-list">
+<li>Chiffrement de tous les transferts de données (TLS 1.2+)</li>
+<li>Contrôle d'accès et authentification</li>
+<li>Mises à jour de sécurité régulières</li>
+<li>Suppression immédiate des fichiers audio après traitement</li>
+<li>Aucun stockage permanent des transcriptions côté serveur</li>
+</ul>
+</div>
+<div class="ds-section" id="s14">
+<div class="ds-section__heading"><span class="ds-num">14</span> Obligation de fournir des données</div>
+<p>La fourniture des données d'inscription (nom de l'entreprise, e-mail) est nécessaire pour la conclusion du contrat. Sans ces données, nous ne pouvons pas fournir le service. La fourniture de fichiers audio est volontaire dans le cadre de l'utilisation respective.</p>
+</div>
+<div class="ds-section" id="s15">
+<div class="ds-section__heading"><span class="ds-num">15</span> Modifications</div>
+<p>Nous nous réservons le droit de mettre à jour la présente politique de confidentialité à tout moment, notamment en raison de modifications législatives, de nouvelles fonctionnalités ou de nouveaux sous-traitants.</p>
+<p>La version actuelle est toujours disponible. En cas de modifications substantielles, nous informerons les utilisateurs enregistrés par e-mail.</p>
+</div>
+</div>""", unsafe_allow_html=True)
+    elif lang == "it":
+        st.markdown("""<div class="ds-content-wrap">
+<div class="ds-header">
+<h1>Informativa sulla protezione dei dati</h1>
+<a href="/" class="ds-header__close">✕ Chiudi</a>
+</div>
+<p class="ds-meta-date">SPEKTRUM Partner GmbH · Versione: Febbraio 2026</p>
+<nav class="ds-toc">
+<div class="ds-toc__title">Indice</div>
+<ol>
+<li><a href="#s1">Titolare del trattamento</a></li>
+<li><a href="#s2">Responsabile della protezione dei dati</a></li>
+<li><a href="#s3">Rappresentante nell'UE</a></li>
+<li><a href="#s4">Diritto applicabile</a></li>
+<li><a href="#s5">Dati raccolti e finalità</a></li>
+<li><a href="#s6">Responsabili del trattamento</a></li>
+<li><a href="#s7">Flusso dei dati audio</a></li>
+<li><a href="#s8">Conservazione e cancellazione</a></li>
+<li><a href="#s9">Trasferimento verso paesi terzi</a></li>
+<li><a href="#s10">I vostri diritti</a></li>
+<li><a href="#s11">Cookie e tracciamento</a></li>
+<li><a href="#s12">Processo decisionale automatizzato</a></li>
+<li><a href="#s13">Sicurezza dei dati</a></li>
+<li><a href="#s14">Obbligo di fornire i dati</a></li>
+<li><a href="#s15">Modifiche</a></li>
+</ol>
+</nav>
+<div class="ds-section" id="s1">
+<div class="ds-section__heading"><span class="ds-num">1</span> Titolare del trattamento</div>
+<div class="ds-contact">
+<p><strong>SPEKTRUM Partner GmbH</strong></p>
+<p>Josefstrasse 181, 8005 Zurigo, Svizzera</p>
+<p>E-mail: <a href="mailto:minutes-ai@spekt.ch">minutes-ai@spekt.ch</a></p>
+<p>Sito web: <a href="https://minu-ai.ch" target="_blank" rel="noopener">https://minu-ai.ch</a></p>
+</div>
+</div>
+<div class="ds-section" id="s2">
+<div class="ds-section__heading"><span class="ds-num">2</span> Responsabile della protezione dei dati</div>
+<p>Non è stato nominato un responsabile della protezione dei dati poiché i requisiti di cui all'art. 37 RGPD non sono soddisfatti. Per domande relative alla protezione dei dati, si prega di contattare: <a href="mailto:minutes-ai@spekt.ch" style="color:#7c3aed;">minutes-ai@spekt.ch</a></p>
+</div>
+<div class="ds-section" id="s3">
+<div class="ds-section__heading"><span class="ds-num">3</span> Rappresentante nell'UE (art. 27 RGPD)</div>
+<p>Poiché SPEKTRUM Partner GmbH ha sede al di fuori dell'UE e offre servizi a persone nello SEE, abbiamo nominato un rappresentante nell'Unione europea ai sensi dell'art. 27 RGPD:</p>
+<div class="ds-contact" style="border-left: 4px solid #7c3aed;">
+<p><strong>VGS Datenschutzpartner GmbH</strong></p>
+<p>Am Kaiserkai 69, 20457 Amburgo, Germania</p>
+<p>E-mail: <a href="mailto:info@datenschutzpartner.eu" style="color:#7c3aed;">info@datenschutzpartner.eu</a></p>
+<p>Sito web: <a href="https://www.datenschutzpartner.eu" target="_blank" rel="noopener" style="color:#7c3aed;">www.datenschutzpartner.eu</a></p>
+</div>
+<p>Il rappresentante nell'UE funge da punto di contatto per le autorità di controllo e gli interessati nell'UE per tutte le questioni relative al trattamento dei dati.</p>
+</div>
+<div class="ds-section" id="s4">
+<div class="ds-section__heading"><span class="ds-num">4</span> Diritto applicabile e ambito di applicazione</div>
+<p>La presente informativa sulla protezione dei dati si applica all'utilizzo dell'applicazione «MINU-AI» e del sito web minu-ai.ch.</p>
+<p>Il trattamento dei dati personali avviene in conformità alla <strong>Legge federale svizzera sulla protezione dei dati (LPD/nLPD)</strong> e, ove applicabile, al <strong>Regolamento generale europeo sulla protezione dei dati (RGPD)</strong>.</p>
+<p>La LPD svizzera si applica poiché la nostra azienda ha sede in Svizzera. Il RGPD si applica inoltre nella misura in cui offriamo servizi a persone nello Spazio economico europeo (SEE) (art. 3, par. 2 RGPD).</p>
+</div>
+<div class="ds-section" id="s5">
+<div class="ds-section__heading"><span class="ds-num">5</span> Dati raccolti e finalità</div>
+<p>Trattiamo i seguenti dati personali:</p>
+<div class="ds-data-cat">
+<div class="ds-data-cat__title">Dati di registrazione</div>
+<div class="ds-data-cat__detail">Nome dell'azienda, indirizzo e-mail</div>
+<div class="ds-data-cat__detail">Finalità: Esecuzione del contratto, accesso all'account, comunicazione</div>
+<div class="ds-data-cat__legal">Base giuridica: Art. 6, par. 1, lett. b RGPD (esecuzione del contratto); art. 31, cpv. 1 LPD</div>
+</div>
+<div class="ds-data-cat">
+<div class="ds-data-cat__title">Dati audio</div>
+<div class="ds-data-cat__detail">File audio caricati per la trascrizione</div>
+<div class="ds-data-cat__detail">Finalità: Fornitura del servizio (trascrizione e generazione di verbali)</div>
+<div class="ds-data-cat__legal">Base giuridica: Art. 6, par. 1, lett. b RGPD (esecuzione del contratto); art. 31, cpv. 1 LPD</div>
+</div>
+<div class="ds-data-cat">
+<div class="ds-data-cat__title">Dati tecnici</div>
+<div class="ds-data-cat__detail">Indirizzo IP, tipo di browser, sistema operativo, orari di accesso</div>
+<div class="ds-data-cat__detail">Finalità: Sicurezza, analisi degli errori</div>
+<div class="ds-data-cat__legal">Base giuridica: Art. 6, par. 1, lett. f RGPD (interesse legittimo); art. 31, cpv. 1 LPD</div>
+</div>
+</div>
+<div class="ds-section" id="s6">
+<div class="ds-section__heading"><span class="ds-num">6</span> Responsabili del trattamento (sub-responsabili)</div>
+<p>Per i nostri servizi ci avvaliamo di fornitori terzi accuratamente selezionati (responsabili/sub-responsabili del trattamento). Con ogni fornitore è stato stipulato un accordo sul trattamento dei dati (ATD) ai sensi dell'art. 28 RGPD e dell'art. 9 LPD.</p>
+<div class="ds-table-wrap">
+<table class="ds-table">
+<thead>
+<tr><th>Fornitore</th><th>Sede</th><th>Finalità</th><th>Protezione dei dati</th></tr>
+</thead>
+<tbody>
+<tr><td>OpenAI, Inc.</td><td>USA</td><td>API Whisper – Trascrizione</td><td>ATD, CCS, EU-US DPF</td></tr>
+<tr><td>Mistral AI SAS</td><td>Francia (UE)</td><td>Generazione di verbali tramite IA</td><td>ATD, RGPD nativo</td></tr>
+<tr><td>Stripe, Inc.</td><td>USA</td><td>Elaborazione dei pagamenti</td><td>ATD, PCI DSS, CCS</td></tr>
+<tr><td>Hetzner Online GmbH</td><td>Germania (UE)</td><td>Hosting del server</td><td>ATD, ISO 27001</td></tr>
+<tr><td>Umami (self-hosted)</td><td>Germania (UE)</td><td>Analisi web rispettosa della privacy</td><td>Self-hosted, nessun dato personale</td></tr>
+</tbody>
+</table>
+</div>
+<p>I file audio caricati per la trascrizione vengono temporaneamente trasmessi a OpenAI (USA) e immediatamente cancellati dal nostro server dopo l'elaborazione. OpenAI conserva i dati API per un massimo di 30 giorni per impostazione predefinita ai fini del monitoraggio degli abusi. I dati non vengono utilizzati da OpenAI per l'addestramento dei modelli.</p>
+<p>La generazione dei verbali è effettuata da Mistral AI (Francia/UE). Mistral è direttamente soggetto al RGPD e tratta esclusivamente testo – nessun file audio.</p>
+</div>
+<div class="ds-section" id="s7">
+<div class="ds-section__heading"><span class="ds-num">7</span> Flusso dei dati audio</div>
+<p>I vostri file audio vengono elaborati nelle seguenti fasi:</p>
+<ol class="ds-steps">
+<li>Caricate un file audio su MINU-AI</li>
+<li>Il file viene temporaneamente memorizzato sul nostro server (Hetzner, Germania)</li>
+<li>Il file audio viene inviato in forma crittografata (TLS) all'API OpenAI Whisper</li>
+<li>OpenAI restituisce il testo trascritto</li>
+<li><strong>Il file audio viene immediatamente cancellato dal nostro server</strong></li>
+<li>Il testo della trascrizione viene inviato in forma crittografata a Mistral AI</li>
+<li>Mistral AI crea un verbale strutturato e lo restituisce</li>
+<li>Il verbale viene visualizzato – nessuna memorizzazione permanente lato server</li>
+</ol>
+<div class="ds-highlight">
+<strong>Importante:</strong> MINU-AI non memorizza in modo permanente file audio o trascrizioni sul server. Il file audio esiste solo durante l'elaborazione attiva.
+</div>
+</div>
+<div class="ds-section" id="s8">
+<div class="ds-section__heading"><span class="ds-num">8</span> Durata di conservazione e cancellazione</div>
+<ul class="ds-list">
+<li><strong>Dati audio:</strong> Cancellati immediatamente dopo l'elaborazione, nessuna memorizzazione permanente</li>
+<li><strong>Trascrizioni/Verbali:</strong> Non memorizzati lato server, solo localmente dall'utente</li>
+<li><strong>Dati dell'account:</strong> Fino alla cancellazione dell'account o 3 anni dopo l'ultima attività</li>
+<li><strong>Dati di fatturazione:</strong> 10 anni (obbligo legale di conservazione)</li>
+<li><strong>Presso OpenAI (impostazione predefinita):</strong> Fino a 30 giorni per il monitoraggio degli abusi (attivazione ZDR in fase di verifica)</li>
+<li><strong>Presso Mistral AI:</strong> Nessuna memorizzazione oltre l'elaborazione per l'utilizzo dell'API</li>
+</ul>
+</div>
+<div class="ds-section" id="s9">
+<div class="ds-section__heading"><span class="ds-num">9</span> Trasferimento dei dati verso paesi terzi</div>
+<p>Quando si utilizzano servizi statunitensi (OpenAI, Stripe), i dati vengono trasferiti negli USA. Ciò avviene sulla base di:</p>
+<ul class="ds-list">
+<li>Quadro sulla protezione dei dati UE-USA (DPF)</li>
+<li>Clausole contrattuali standard (CCS)</li>
+<li>Garanzie tecniche supplementari (crittografia in transito)</li>
+</ul>
+<p>L'elaborazione da parte di Mistral AI (Francia) e Hetzner (Germania) avviene interamente all'interno dell'UE. Non si verifica alcun trasferimento verso paesi terzi in questo contesto.</p>
+</div>
+<div class="ds-section" id="s10">
+<div class="ds-section__heading"><span class="ds-num">10</span> I vostri diritti</div>
+<p>Avete i seguenti diritti:</p>
+<div class="ds-table-wrap">
+<table class="ds-table">
+<thead>
+<tr><th>Diritto</th><th>RGPD</th><th>LPD svizzera</th></tr>
+</thead>
+<tbody>
+<tr><td>Accesso</td><td>Art. 15 RGPD</td><td>Art. 25 LPD</td></tr>
+<tr><td>Rettifica</td><td>Art. 16 RGPD</td><td>Art. 32, cpv. 1 LPD</td></tr>
+<tr><td>Cancellazione</td><td>Art. 17 RGPD</td><td>Art. 32, cpv. 2, lett. c LPD</td></tr>
+<tr><td>Limitazione del trattamento</td><td>Art. 18 RGPD</td><td>–</td></tr>
+<tr><td>Portabilità dei dati</td><td>Art. 20 RGPD</td><td>Art. 28 LPD</td></tr>
+<tr><td>Opposizione</td><td>Art. 21 RGPD</td><td>Art. 32, cpv. 2, lett. b LPD</td></tr>
+<tr><td>Reclamo</td><td>Autorità di controllo competente</td><td>IFPDT (vedi sotto)</td></tr>
+</tbody>
+</table>
+</div>
+<p>Contatto per le richieste: <a href="mailto:minutes-ai@spekt.ch" style="color:#7c3aed;">minutes-ai@spekt.ch</a></p>
+<p><strong>Diritto di reclamo:</strong> Avete il diritto di presentare un reclamo presso l'autorità di controllo competente:</p>
+<ul class="ds-list">
+<li><strong>Svizzera:</strong> Incaricato federale della protezione dei dati e della trasparenza (IFPDT), Feldeggweg 1, 3003 Berna – <a href="https://www.edoeb.admin.ch" target="_blank" rel="noopener" style="color:#7c3aed;">www.edoeb.admin.ch</a></li>
+<li><strong>UE:</strong> L'autorità di controllo competente secondo l'<a href="https://edpb.europa.eu/about-edpb/about-edpb/members_en" target="_blank" rel="noopener" style="color:#7c3aed;">elenco dei membri del CEPD</a></li>
+</ul>
+</div>
+<div class="ds-section" id="s11">
+<div class="ds-section__heading"><span class="ds-num">11</span> Cookie e tracciamento</div>
+<ul class="ds-list">
+<li>Utilizziamo esclusivamente cookie di sessione tecnicamente necessari</li>
+<li>Per l'analisi del sito web utilizziamo <strong>Umami Analytics</strong> – uno strumento rispettoso della privacy, senza cookie, senza raccolta di dati personali e senza tracciamento cross-site</li>
+<li>Nessun Google Analytics, nessun cookie pubblicitario, nessuna condivisione con terzi</li>
+</ul>
+<p>Base giuridica: Art. 6, par. 1, lett. f RGPD (interesse legittimo); art. 31, cpv. 1 LPD</p>
+</div>
+<div class="ds-section" id="s12">
+<div class="ds-section__heading"><span class="ds-num">12</span> Processo decisionale automatizzato</div>
+<p>La trascrizione e la generazione di verbali tramite intelligenza artificiale non costituiscono un processo decisionale automatizzato ai sensi dell'art. 22 RGPD, in quanto non ne derivano effetti giuridici o analogamente significativi. I risultati fungono da supporto e richiedono sempre una verifica da parte dell'utente.</p>
+</div>
+<div class="ds-section" id="s13">
+<div class="ds-section__heading"><span class="ds-num">13</span> Sicurezza dei dati</div>
+<p>Adottiamo misure tecniche e organizzative allo stato dell'arte per proteggere i vostri dati, tra cui:</p>
+<ul class="ds-list">
+<li>Crittografia di tutti i trasferimenti di dati (TLS 1.2+)</li>
+<li>Controllo degli accessi e autenticazione</li>
+<li>Aggiornamenti di sicurezza regolari</li>
+<li>Cancellazione immediata dei file audio dopo l'elaborazione</li>
+<li>Nessuna memorizzazione permanente delle trascrizioni lato server</li>
+</ul>
+</div>
+<div class="ds-section" id="s14">
+<div class="ds-section__heading"><span class="ds-num">14</span> Obbligo di fornire i dati</div>
+<p>La fornitura dei dati di registrazione (nome dell'azienda, e-mail) è necessaria per la conclusione del contratto. Senza questi dati non possiamo fornire il servizio. La fornitura di file audio è volontaria nell'ambito del rispettivo utilizzo.</p>
+</div>
+<div class="ds-section" id="s15">
+<div class="ds-section__heading"><span class="ds-num">15</span> Modifiche</div>
+<p>Ci riserviamo il diritto di aggiornare la presente informativa sulla protezione dei dati in qualsiasi momento, in particolare a seguito di modifiche legislative, nuove funzionalità o nuovi sub-responsabili del trattamento.</p>
+<p>La versione attuale è sempre disponibile. In caso di modifiche sostanziali, informeremo gli utenti registrati via e-mail.</p>
+</div>
+</div>""", unsafe_allow_html=True)
     else:
         st.markdown("""<div class="ds-content-wrap">
 <div class="ds-header">
@@ -6988,6 +7578,214 @@ Die Bereitstellung Ihrer E-Mail-Adresse und Firmendaten ist für den Vertragssch
 Wir behalten uns vor, diese Datenschutzerklärung bei Bedarf anzupassen. Die aktuelle Version ist stets auf unserer Website verfügbar. Bei wesentlichen Änderungen informieren wir Sie per E-Mail.
 </div>
         """, unsafe_allow_html=True)
+    elif lang == "fr":
+        st.markdown("""
+<div style="font-size: 12px; line-height: 1.6; max-height: 500px; overflow-y: auto;">
+<p style="color: #888; font-size: 11px; margin-bottom: 12px;">Politique de confidentialité – Dernière mise à jour : février 2026</p>
+
+<b>1. Responsable du traitement</b><br>
+SPEKTRUM Partner GmbH<br>
+Josefstrasse 181, 8005 Zurich, Suisse<br>
+E-mail : minutes-ai@spekt.ch<br>
+Site web : https://minu-ai.ch
+
+<b>2. Délégué à la protection des données</b><br>
+Aucun délégué à la protection des données n'est désigné conformément à l'art. 37 RGPD, les conditions n'étant pas remplies. Pour toute question relative à la protection des données, veuillez contacter : minutes-ai@spekt.ch
+
+<b>3. Données collectées et finalités</b><br>
+Nous traitons les données personnelles suivantes :<br><br>
+<u>Données d'inscription :</u><br>
+• Nom de l'entreprise, adresse e-mail<br>
+• Finalité : Exécution du contrat, accès au compte, communication<br>
+• Base juridique : Art. 6, par. 1, let. b RGPD (exécution du contrat)<br><br>
+<u>Données audio :</u><br>
+• Fichiers audio téléchargés pour la transcription<br>
+• Finalité : Fourniture du service (transcription et génération de procès-verbaux)<br>
+• Base juridique : Art. 6, par. 1, let. b RGPD (exécution du contrat)<br><br>
+<u>Données techniques :</u><br>
+• Adresse IP, type de navigateur, système d'exploitation, horaires d'accès<br>
+• Finalité : Sécurité, analyse des erreurs, prévention des abus<br>
+• Base juridique : Art. 6, par. 1, let. f RGPD (intérêt légitime)<br><br>
+<u>Données de paiement :</u><br>
+• Les données de carte de crédit sont traitées exclusivement par Stripe<br>
+• Nous ne stockons pas les données de paiement complètes<br>
+• Base juridique : Art. 6, par. 1, let. b RGPD (exécution du contrat)
+
+<b>4. Transfert de données à des tiers</b><br>
+Nous travaillons avec les sous-traitants suivants pour fournir nos services :<br><br>
+<u>🇪🇺 Mistral AI (France/UE)</u><br>
+• Finalité : Génération de procès-verbaux assistée par IA<br>
+• Traitement des données au sein de l'UE<br>
+• Accord de traitement des données (DPA) en place<br><br>
+<u>🇺🇸 OpenAI, Inc. (États-Unis)</u><br>
+• Finalité : Transcription via l'API Whisper<br>
+• Transfert vers un pays tiers sur la base des clauses contractuelles types (CCT) de l'UE conformément à l'art. 46, par. 2, let. c RGPD<br>
+• Accord de traitement des données (DPA) en place<br>
+• OpenAI ne stocke pas les données à des fins d'amélioration de ses modèles (utilisation API)<br><br>
+<u>🇺🇸 Stripe, Inc. (États-Unis)</u><br>
+• Finalité : Traitement sécurisé des paiements<br>
+• Transfert vers un pays tiers sur la base des clauses contractuelles types (CCT) de l'UE<br>
+• Certifié PCI-DSS<br><br>
+<u>🇨🇭 Hébergeur (Suisse/UE)</u><br>
+• Emplacement du serveur : Suisse ou UE<br>
+• Accord de traitement des données (DPA) en place
+
+<b>5. Durées de conservation</b><br>
+• <b>Fichiers audio :</b> Supprimés immédiatement et de manière irréversible après le traitement (aucun stockage)<br>
+• <b>Procès-verbaux :</b> Stockés uniquement en local chez l'utilisateur, pas sur nos serveurs<br>
+• <b>Données d'inscription :</b> Jusqu'à la suppression du compte ou 3 ans après la dernière activité<br>
+• <b>Journaux du serveur :</b> 30 jours maximum<br>
+• <b>Données de facturation :</b> 10 ans (obligation légale de conservation)
+
+<b>6. Vos droits en vertu du RGPD</b><br>
+Vous disposez des droits suivants concernant vos données personnelles :<br><br>
+• <b>Droit d'accès (art. 15) :</b> Information sur les données que nous conservons à votre sujet<br>
+• <b>Droit de rectification (art. 16) :</b> Correction des données inexactes<br>
+• <b>Droit à l'effacement (art. 17) :</b> Suppression de vos données (« droit à l'oubli »)<br>
+• <b>Droit à la limitation du traitement (art. 18) :</b> Limitation du traitement<br>
+• <b>Droit à la portabilité des données (art. 20) :</b> Exportation de vos données dans un format lisible par machine<br>
+• <b>Droit d'opposition (art. 21) :</b> Opposition au traitement fondé sur l'intérêt légitime<br><br>
+Pour exercer vos droits, contactez-nous à : minutes-ai@spekt.ch
+
+<b>7. Droit d'introduire une réclamation</b><br>
+Vous avez le droit d'introduire une réclamation auprès d'une autorité de contrôle en matière de protection des données :<br><br>
+<u>Suisse :</u><br>
+Préposé fédéral à la protection des données et à la transparence (PFPDT)<br>
+Feldeggweg 1, 3003 Berne<br>
+www.edoeb.admin.ch<br><br>
+<u>UE (selon le lieu de résidence) :</u><br>
+Liste des autorités de contrôle de l'UE : https://edpb.europa.eu/about-edpb/about-edpb/members_en
+
+<b>8. Cookies et suivi</b><br>
+• Nous utilisons uniquement des cookies de session techniquement nécessaires<br>
+• Pour l'analyse du site web, nous utilisons Umami Analytics – un outil respectueux de la vie privée, sans cookies, sans collecte de données personnelles et sans suivi intersites<br>
+• Pas de Google Analytics, pas de cookies publicitaires, pas de partage avec des tiers<br>
+• Base juridique : Art. 6, par. 1, let. f RGPD (intérêt légitime à l'amélioration de notre service)
+
+<b>9. Prise de décision automatisée</b><br>
+La transcription et la génération de procès-verbaux assistées par IA ne constituent pas une prise de décision automatisée au sens de l'art. 22 RGPD, car :<br>
+• Aucun effet juridique ou effet significatif similaire n'en résulte pour vous<br>
+• Tous les résultats peuvent être vérifiés et modifiés par vous<br>
+• Le traitement sert à l'exécution du contrat
+
+<b>10. Sécurité des données</b><br>
+Nous mettons en œuvre des mesures techniques et organisationnelles :<br>
+• Chiffrement TLS pour tous les transferts de données (HTTPS)<br>
+• Stockage chiffré des données sensibles<br>
+• Restrictions d'accès et authentification<br>
+• Mises à jour de sécurité régulières
+
+<b>11. Obligation de fournir des données</b><br>
+La fourniture de votre adresse e-mail et des données de votre entreprise est nécessaire à la conclusion du contrat. Sans ces données, nous ne pouvons pas fournir le service. La fourniture de données audio est facultative pour l'utilisation de la fonction de transcription.
+
+<b>12. Modifications de la présente politique de confidentialité</b><br>
+Nous nous réservons le droit de mettre à jour la présente politique de confidentialité selon les besoins. La version actuelle est toujours disponible sur notre site web. Nous vous informerons par e-mail de toute modification substantielle.
+</div>
+        """, unsafe_allow_html=True)
+    elif lang == "it":
+        st.markdown("""
+<div style="font-size: 12px; line-height: 1.6; max-height: 500px; overflow-y: auto;">
+<p style="color: #888; font-size: 11px; margin-bottom: 12px;">Informativa sulla protezione dei dati – Ultimo aggiornamento: febbraio 2026</p>
+
+<b>1. Titolare del trattamento</b><br>
+SPEKTRUM Partner GmbH<br>
+Josefstrasse 181, 8005 Zurigo, Svizzera<br>
+E-mail: minutes-ai@spekt.ch<br>
+Sito web: https://minu-ai.ch
+
+<b>2. Responsabile della protezione dei dati</b><br>
+Non è stato nominato un Responsabile della protezione dei dati ai sensi dell'art. 37 RGPD in quanto i requisiti non sono soddisfatti. Per domande relative alla protezione dei dati, contattare: minutes-ai@spekt.ch
+
+<b>3. Dati raccolti e finalità</b><br>
+Trattiamo i seguenti dati personali:<br><br>
+<u>Dati di registrazione:</u><br>
+• Nome dell'azienda, indirizzo e-mail<br>
+• Finalità: Esecuzione del contratto, accesso all'account, comunicazione<br>
+• Base giuridica: Art. 6, par. 1, lett. b RGPD (esecuzione del contratto)<br><br>
+<u>Dati audio:</u><br>
+• File audio caricati per la trascrizione<br>
+• Finalità: Erogazione del servizio (trascrizione e generazione di verbali)<br>
+• Base giuridica: Art. 6, par. 1, lett. b RGPD (esecuzione del contratto)<br><br>
+<u>Dati tecnici:</u><br>
+• Indirizzo IP, tipo di browser, sistema operativo, orari di accesso<br>
+• Finalità: Sicurezza, analisi degli errori, prevenzione degli abusi<br>
+• Base giuridica: Art. 6, par. 1, lett. f RGPD (interesse legittimo)<br><br>
+<u>Dati di pagamento:</u><br>
+• I dati della carta di credito sono trattati esclusivamente da Stripe<br>
+• Non conserviamo i dati di pagamento completi<br>
+• Base giuridica: Art. 6, par. 1, lett. b RGPD (esecuzione del contratto)
+
+<b>4. Trasferimento dei dati a terzi</b><br>
+Collaboriamo con i seguenti responsabili del trattamento per fornire i nostri servizi:<br><br>
+<u>🇪🇺 Mistral AI (Francia/UE)</u><br>
+• Finalità: Generazione di verbali assistita dall'IA<br>
+• Trattamento dei dati all'interno dell'UE<br>
+• Accordo sul trattamento dei dati (DPA) in essere<br><br>
+<u>🇺🇸 OpenAI, Inc. (USA)</u><br>
+• Finalità: Trascrizione tramite API Whisper<br>
+• Trasferimento verso un paese terzo sulla base delle clausole contrattuali tipo (CCT) dell'UE ai sensi dell'art. 46, par. 2, lett. c RGPD<br>
+• Accordo sul trattamento dei dati (DPA) in essere<br>
+• OpenAI non conserva i dati per il miglioramento dei modelli (utilizzo API)<br><br>
+<u>🇺🇸 Stripe, Inc. (USA)</u><br>
+• Finalità: Elaborazione sicura dei pagamenti<br>
+• Trasferimento verso un paese terzo sulla base delle clausole contrattuali tipo (CCT) dell'UE<br>
+• Certificato PCI-DSS<br><br>
+<u>🇨🇭 Provider di hosting (Svizzera/UE)</u><br>
+• Ubicazione del server: Svizzera o UE<br>
+• Accordo sul trattamento dei dati (DPA) in essere
+
+<b>5. Periodi di conservazione</b><br>
+• <b>File audio:</b> Eliminati immediatamente e in modo irreversibile dopo l'elaborazione (nessuna conservazione)<br>
+• <b>Verbali:</b> Conservati esclusivamente in locale presso l'utente, non sui nostri server<br>
+• <b>Dati di registrazione:</b> Fino alla cancellazione dell'account o 3 anni dall'ultima attività<br>
+• <b>Log del server:</b> Massimo 30 giorni<br>
+• <b>Dati di fatturazione:</b> 10 anni (obbligo legale di conservazione)
+
+<b>6. I Vostri diritti ai sensi del RGPD</b><br>
+Avete i seguenti diritti in relazione ai Vostri dati personali:<br><br>
+• <b>Diritto di accesso (art. 15):</b> Informazioni sui dati che conserviamo su di Voi<br>
+• <b>Diritto di rettifica (art. 16):</b> Correzione dei dati inesatti<br>
+• <b>Diritto alla cancellazione (art. 17):</b> Cancellazione dei Vostri dati («diritto all'oblio»)<br>
+• <b>Diritto alla limitazione del trattamento (art. 18):</b> Limitazione del trattamento<br>
+• <b>Diritto alla portabilità dei dati (art. 20):</b> Esportazione dei Vostri dati in formato leggibile da dispositivo automatico<br>
+• <b>Diritto di opposizione (art. 21):</b> Opposizione al trattamento basato sull'interesse legittimo<br><br>
+Per esercitare i Vostri diritti, contattateci all'indirizzo: minutes-ai@spekt.ch
+
+<b>7. Diritto di proporre reclamo</b><br>
+Avete il diritto di proporre reclamo presso un'autorità di controllo in materia di protezione dei dati:<br><br>
+<u>Svizzera:</u><br>
+Incaricato federale della protezione dei dati e della trasparenza (IFPDT)<br>
+Feldeggweg 1, 3003 Berna<br>
+www.edoeb.admin.ch<br><br>
+<u>UE (a seconda del luogo di residenza):</u><br>
+Elenco delle autorità di controllo dell'UE: https://edpb.europa.eu/about-edpb/about-edpb/members_en
+
+<b>8. Cookie e tracciamento</b><br>
+• Utilizziamo esclusivamente cookie di sessione tecnicamente necessari<br>
+• Per l'analisi del sito web utilizziamo Umami Analytics – uno strumento rispettoso della privacy, senza cookie, senza raccolta di dati personali e senza tracciamento intersito<br>
+• Nessun Google Analytics, nessun cookie pubblicitario, nessuna condivisione con terzi<br>
+• Base giuridica: Art. 6, par. 1, lett. f RGPD (interesse legittimo al miglioramento del nostro servizio)
+
+<b>9. Processo decisionale automatizzato</b><br>
+La trascrizione e la generazione di verbali assistite dall'IA non costituiscono un processo decisionale automatizzato ai sensi dell'art. 22 RGPD in quanto:<br>
+• Non producono effetti giuridici né effetti significativi analoghi nei Vostri confronti<br>
+• Tutti i risultati possono essere verificati e modificati da Voi<br>
+• Il trattamento serve all'esecuzione del contratto
+
+<b>10. Sicurezza dei dati</b><br>
+Adottiamo misure tecniche e organizzative:<br>
+• Crittografia TLS per tutti i trasferimenti di dati (HTTPS)<br>
+• Conservazione crittografata dei dati sensibili<br>
+• Restrizioni di accesso e autenticazione<br>
+• Aggiornamenti di sicurezza regolari
+
+<b>11. Obbligo di fornire i dati</b><br>
+La comunicazione del Vostro indirizzo e-mail e dei dati aziendali è necessaria per la conclusione del contratto. Senza questi dati, non possiamo erogare il servizio. La comunicazione dei dati audio è facoltativa per l'utilizzo della funzione di trascrizione.
+
+<b>12. Modifiche alla presente informativa sulla protezione dei dati</b><br>
+Ci riserviamo il diritto di aggiornare la presente informativa sulla protezione dei dati secondo necessità. La versione attuale è sempre disponibile sul nostro sito web. Vi informeremo via e-mail in caso di modifiche sostanziali.
+</div>
+        """, unsafe_allow_html=True)
     else:
         st.markdown("""
 <div style="font-size: 12px; line-height: 1.6; max-height: 500px; overflow-y: auto;">
@@ -7192,6 +7990,190 @@ Es gilt die separate Datenschutzerklärung (siehe Link "Datenschutz" im Footer).
 15.2 Ausschliesslicher Gerichtsstand ist Zürich, Schweiz.<br><br>
 15.3 Sollten einzelne Bestimmungen unwirksam sein, bleibt die Wirksamkeit der übrigen Bestimmungen unberührt.<br><br>
 15.4 Mündliche Nebenabreden bestehen nicht.
+</div>
+        """, unsafe_allow_html=True)
+    elif lang == "fr":
+        st.markdown("""
+<div style="font-size: 12px; line-height: 1.6; max-height: 500px; overflow-y: auto;">
+<p style="color: #888; font-size: 11px; margin-bottom: 12px;">Conditions Générales de Vente – Dernière mise à jour : Février 2026</p>
+
+<b>§1 Champ d'application et utilisation B2B</b><br>
+1.1 Les présentes Conditions Générales de Vente (CGV) s'appliquent à tous les contrats conclus entre SPEKTRUM Partner GmbH, Josefstrasse 181, 8005 Zurich, Suisse (ci-après « Fournisseur ») et l'utilisateur (ci-après « Client ») concernant l'utilisation de la solution logicielle en tant que service (SaaS) MINU-AI.<br><br>
+1.2 <b>MINU-AI est destiné exclusivement aux entrepreneurs, professionnels, indépendants et personnes morales (B2B).</b> En s'inscrivant, le Client confirme expressément qu'il agit dans le cadre de son activité commerciale, indépendante ou professionnelle et non en qualité de consommateur.<br><br>
+1.3 Les droits de protection des consommateurs, en particulier le droit de rétractation légal pour les contrats à distance, ne s'appliquent pas aux contrats conclus avec MINU-AI.<br><br>
+1.4 Le Client garantit l'exactitude des informations fournies concernant son statut professionnel. Le Client est responsable de tout dommage résultant d'informations inexactes.
+
+<b>§2 Description des services</b><br>
+2.1 MINU-AI est une application cloud destinée à la transcription automatique d'enregistrements audio et à la création assistée par IA de procès-verbaux de réunions.<br><br>
+2.2 Le service comprend : (a) la transcription via l'API OpenAI Whisper, (b) la génération de procès-verbaux via Mistral AI, (c) l'exportation aux formats PDF et Word, (d) l'accès web à l'application.<br><br>
+2.3 Le Fournisseur peut à tout moment étendre, modifier ou limiter l'étendue des fonctionnalités, pour autant que cela soit raisonnable pour le Client.
+
+<b>§3 Conclusion du contrat et statut professionnel</b><br>
+3.1 Le contrat est conclu dès l'achèvement de l'inscription et l'acceptation des présentes CGV.<br><br>
+3.2 L'âge minimum requis pour l'utilisation est de 18 ans.<br><br>
+3.3 Le Client garantit et déclare qu'il agit en qualité d'entité commerciale. Cette déclaration constitue un élément essentiel du contrat.
+
+<b>§4 Prix, paiement et taxes</b><br>
+4.1 Les prix affichés sur le site web au moment de la commande s'appliquent, en francs suisses (CHF).<br><br>
+4.2 Le paiement s'effectue par avance par carte de crédit via le prestataire de services de paiement Stripe.<br><br>
+4.3 Les abonnements se renouvellent automatiquement pour la durée contractuelle respective, sauf résiliation en temps utile.<br><br>
+4.4 Pour les clients professionnels de l'UE disposant d'un numéro d'identification TVA valide, la procédure d'autoliquidation (reverse charge) s'applique. Le Client est responsable de la taxation correcte dans son pays.<br><br>
+4.5 <b>Le Client est seul responsable du paiement correct de l'ensemble des taxes, droits et redevances applicables dans son pays de résidence ou son lieu d'activité.</b> Le Fournisseur n'assume aucune obligation fiscale à l'étranger et n'est pas responsable des conséquences fiscales du côté du Client.<br><br>
+4.6 <b>Indexation des prix :</b> Les tarifs sont soumis à un ajustement de valeur. L'indice suisse des prix à la consommation (IPC) publié par l'Office fédéral de la statistique (OFS) sert de référence. Le mois de base est le mois de conclusion du contrat. Le Fournisseur est en droit d'ajuster les prix au début de chaque année civile conformément à l'évolution de l'indice. Le Client sera informé des ajustements de prix par e-mail. Si le Fournisseur n'applique pas l'indexation certaines années, cela ne constitue pas une renonciation à l'ajustement de valeur accumulé.
+
+<b>§5 Disponibilité géographique</b><br>
+5.1 <b>MINU-AI est exclusivement disponible pour les clients des régions suivantes :</b> Suisse, Union européenne (UE) et Espace économique européen (EEE).<br><br>
+5.2 <b>Le service n'est expressément PAS disponible pour les clients des pays suivants :</b> États-Unis d'Amérique (USA), Chine (y compris Hong Kong et Macao), Russie, Inde, Brésil, ainsi que tous les autres pays non mentionnés au §5.1.<br><br>
+5.3 Le Client garantit que son lieu d'activité se situe dans l'une des régions autorisées conformément au §5.1. Des informations inexactes peuvent entraîner la résiliation immédiate du contrat.<br><br>
+5.4 Le Fournisseur se réserve le droit d'étendre ou de restreindre la liste des régions autorisées à tout moment. Les contrats existants ne sont pas affectés par les modifications apportées aux régions nouvellement autorisées.
+
+<b>§6 Période d'essai gratuite</b><br>
+6.1 Les nouveaux clients bénéficient d'une période d'essai gratuite de 21 jours avec un maximum de 60 minutes de transcription.<br><br>
+6.2 La période d'essai prend fin automatiquement sans obligation supplémentaire.<br><br>
+6.3 Aucun droit de rétractation n'existe pendant la période d'essai, le service étant mis à disposition immédiatement.
+
+<b>§7 Durée et résiliation</b><br>
+7.1 Les abonnements mensuels peuvent être résiliés à tout moment avec effet à la fin de la période de facturation en cours.<br><br>
+7.2 Les abonnements annuels peuvent être résiliés à tout moment avec effet à la fin de la durée contractuelle en cours.<br><br>
+7.3 Les montants déjà versés ne sont pas remboursés en cas de résiliation (pas de remboursement au prorata).
+
+<b>§8 Droit de rétractation – Exclusion B2B</b><br>
+8.1 MINU-AI étant destiné exclusivement aux clients professionnels, aucun droit de rétractation légal n'existe.<br><br>
+8.2 Le droit de rétractation du consommateur en vertu de la directive européenne 2011/83/UE et des réglementations nationales correspondantes ne s'applique pas.<br><br>
+8.3 Les résiliations de contrat ne sont possibles que conformément aux dispositions de résiliation du §7.
+
+<b>§9 Disponibilité et interruptions – Absence de SLA</b><br>
+9.1 <b>Le Fournisseur ne garantit aucune disponibilité spécifique des services.</b> MINU-AI est fourni « en l'état » et « selon disponibilité ».<br><br>
+9.2 Le Fournisseur est en droit de restreindre ou d'interrompre le service à tout moment pour des raisons de maintenance, de mises à jour ou pour toute autre raison, de manière temporaire ou permanente.<br><br>
+9.3 <b>Il n'existe aucun droit à une disponibilité ininterrompue.</b> Le Fournisseur n'est pas responsable des pannes, interruptions, retards ou perturbations, quelle qu'en soit la cause.<br><br>
+9.4 En cas d'arrêt définitif du service, le Client en sera informé. Les montants déjà versés pour des périodes non utilisées ne seront pas remboursés.
+
+<b>§10 Support – Absence de droit</b><br>
+10.1 <b>Le Fournisseur ne propose pas de support client garanti.</b> Les demandes de support peuvent être soumises par e-mail, mais il n'existe aucun droit à une réponse ni à des délais de réponse.<br><br>
+10.2 Le Fournisseur peut offrir, limiter ou supprimer les services de support à sa seule discrétion.<br><br>
+10.3 Le support téléphonique, les formations ou les interventions sur site ne font pas partie du contrat.
+
+<b>§11 Exclusion de responsabilité et avertissement relatif à l'IA</b><br>
+11.1 <b>Le contenu généré par l'IA est exclusivement destiné à servir d'aide au travail.</b> Il ne constitue pas des documents juridiquement contraignants, complets ou exempts d'erreurs.<br><br>
+11.2 <b>En tant qu'utilisateur professionnel, le Client est tenu de vérifier, contrôler et corriger de manière indépendante tous les résultats générés par l'IA.</b> Le Fournisseur ne fournit aucune garantie quant à l'exactitude, l'exhaustivité ou l'adéquation à un usage particulier.<br><br>
+11.3 <b>Toute responsabilité pour les erreurs de l'IA, les hallucinations, les interprétations erronées, les transcriptions incorrectes ou les procès-verbaux incomplets est entièrement exclue.</b><br><br>
+11.4 <b>Toute responsabilité pour les pannes, perturbations ou indisponibilités de services tiers (OpenAI, Mistral AI, Stripe, hébergeurs) est entièrement exclue.</b><br><br>
+11.5 La responsabilité totale du Fournisseur est en tout état de cause limitée au montant des frais versés par le Client au cours des 12 derniers mois, sans toutefois excéder un mois d'abonnement.<br><br>
+11.6 Les limitations de responsabilité susmentionnées ne s'appliquent pas aux dommages résultant d'atteintes à la vie, à l'intégrité corporelle ou à la santé, ni en cas de faute intentionnelle.<br><br>
+11.7 <b>Prescription abrégée :</b> Les demandes de dommages-intérêts du Client à l'encontre du Fournisseur se prescrivent dans un délai de 6 mois à compter de la connaissance du dommage et de la partie responsable, et en tout état de cause au plus tard 3 ans après l'événement à l'origine du dommage. Ce délai de prescription ne s'applique pas aux réclamations résultant de dommages corporels ou de faute intentionnelle.
+
+<b>§12 Obligations et responsabilités du Client</b><br>
+12.1 Le Client est seul responsable de l'utilisation conforme à la loi de MINU-AI.<br><br>
+12.2 Le Client s'assure qu'il a obtenu tous les consentements nécessaires des personnes enregistrées.<br><br>
+12.3 Le Client n'utilise pas MINU-AI à des fins illicites, harcelantes, diffamatoires ou autrement inadmissibles.<br><br>
+12.4 Le Client tient le Fournisseur indemne de toute réclamation de tiers résultant d'une utilisation illicite.<br><br>
+12.5 <b>Interdiction d'ingénierie inverse :</b> Il est interdit au Client de décompiler, désassembler, procéder à l'ingénierie inverse ou créer des œuvres dérivées du logiciel. En cas de violation, une pénalité contractuelle de CHF 10 000 par infraction est due, sans que le Fournisseur ait à prouver un quelconque dommage. Le droit de réclamer des dommages-intérêts supérieurs à ce montant est réservé.
+
+<b>§13 Protection des données</b><br>
+La politique de confidentialité séparée s'applique (voir le lien « Confidentialité » en bas de page).
+
+<b>§14 Clause de modification</b><br>
+14.1 Le Fournisseur se réserve le droit de modifier les présentes CGV à tout moment.<br><br>
+14.2 Les modifications seront communiquées au Client par e-mail. Si le Client ne s'y oppose pas dans un délai de 30 jours, les CGV modifiées sont réputées acceptées.<br><br>
+14.3 En cas de modifications substantielles, le Client dispose d'un droit de résiliation extraordinaire.
+
+<b>§15 Dispositions finales</b><br>
+15.1 Le droit suisse s'applique exclusivement, à l'exclusion de la Convention des Nations Unies sur les contrats de vente internationale de marchandises.<br><br>
+15.2 Le for exclusif est Zurich, Suisse.<br><br>
+15.3 Si certaines dispositions devaient être invalides, la validité des dispositions restantes n'en serait pas affectée.<br><br>
+15.4 Il n'existe aucun accord verbal accessoire.
+</div>
+        """, unsafe_allow_html=True)
+    elif lang == "it":
+        st.markdown("""
+<div style="font-size: 12px; line-height: 1.6; max-height: 500px; overflow-y: auto;">
+<p style="color: #888; font-size: 11px; margin-bottom: 12px;">Condizioni Generali di Contratto – Ultimo aggiornamento: Febbraio 2026</p>
+
+<b>§1 Ambito di applicazione e utilizzo B2B</b><br>
+1.1 Le presenti Condizioni Generali di Contratto (CGC) si applicano a tutti i contratti stipulati tra SPEKTRUM Partner GmbH, Josefstrasse 181, 8005 Zurigo, Svizzera (di seguito «Fornitore») e l'utente (di seguito «Cliente») relativamente all'utilizzo della soluzione software-as-a-service MINU-AI.<br><br>
+1.2 <b>MINU-AI è destinato esclusivamente a imprenditori, professionisti, lavoratori autonomi e persone giuridiche (B2B).</b> Con la registrazione, il Cliente conferma espressamente di agire nell'ambito della propria attività commerciale, autonoma o professionale e non in qualità di consumatore.<br><br>
+1.3 I diritti di tutela dei consumatori, in particolare il diritto di recesso previsto dalla legge per i contratti a distanza, non si applicano ai contratti stipulati con MINU-AI.<br><br>
+1.4 Il Cliente garantisce la correttezza delle informazioni fornite in merito al proprio status professionale. Il Cliente è responsabile per qualsiasi danno derivante da informazioni inesatte.
+
+<b>§2 Descrizione del servizio</b><br>
+2.1 MINU-AI è un'applicazione cloud per la trascrizione automatica di registrazioni audio e la creazione assistita dall'IA di verbali di riunione.<br><br>
+2.2 Il servizio comprende: (a) trascrizione tramite l'API OpenAI Whisper, (b) generazione di verbali tramite Mistral AI, (c) esportazione in formato PDF e Word, (d) accesso web all'applicazione.<br><br>
+2.3 Il Fornitore può in qualsiasi momento ampliare, modificare o limitare la gamma delle funzionalità, a condizione che ciò sia ragionevole per il Cliente.
+
+<b>§3 Conclusione del contratto e status professionale</b><br>
+3.1 Il contratto si conclude con il completamento della registrazione e l'accettazione delle presenti CGC.<br><br>
+3.2 L'età minima per l'utilizzo è di 18 anni.<br><br>
+3.3 Il Cliente garantisce e dichiara di agire in qualità di entità commerciale. Tale dichiarazione costituisce un elemento essenziale del contratto.
+
+<b>§4 Prezzi, pagamento e imposte</b><br>
+4.1 Si applicano i prezzi indicati sul sito web al momento dell'ordine, in franchi svizzeri (CHF).<br><br>
+4.2 Il pagamento avviene anticipatamente tramite carta di credito attraverso il fornitore di servizi di pagamento Stripe.<br><br>
+4.3 Gli abbonamenti si rinnovano automaticamente per il rispettivo periodo contrattuale, salvo disdetta tempestiva.<br><br>
+4.4 Per i clienti aziendali dell'UE in possesso di un numero di identificazione IVA valido, si applica il meccanismo dell'inversione contabile (reverse charge). Il Cliente è responsabile della corretta imposizione fiscale nel proprio Paese.<br><br>
+4.5 <b>Il Cliente è l'unico responsabile del corretto pagamento di tutte le imposte, i dazi e le tasse applicabili nel proprio Paese di residenza o sede d'affari.</b> Il Fornitore non assume alcun obbligo fiscale all'estero e non è responsabile per le conseguenze fiscali a carico del Cliente.<br><br>
+4.6 <b>Indicizzazione dei prezzi:</b> Le tariffe sono soggette ad adeguamento del valore. L'indice nazionale svizzero dei prezzi al consumo (IPC) pubblicato dall'Ufficio federale di statistica (UST) funge da riferimento. Il mese base è il mese di conclusione del contratto. Il Fornitore ha il diritto di adeguare i prezzi all'inizio di ogni anno solare in conformità con la variazione dell'indice. Il Cliente sarà informato degli adeguamenti dei prezzi via e-mail. Qualora il Fornitore non applichi l'indicizzazione in singoli anni, ciò non costituisce rinuncia all'adeguamento del valore maturato.
+
+<b>§5 Disponibilità geografica</b><br>
+5.1 <b>MINU-AI è disponibile esclusivamente per clienti delle seguenti regioni:</b> Svizzera, Unione Europea (UE) e Spazio Economico Europeo (SEE).<br><br>
+5.2 <b>Il servizio NON è espressamente disponibile per clienti dei seguenti Paesi:</b> Stati Uniti d'America (USA), Cina (incluse Hong Kong e Macao), Russia, India, Brasile, nonché tutti gli altri Paesi non menzionati al §5.1.<br><br>
+5.3 Il Cliente garantisce che la propria sede d'affari si trova in una delle regioni autorizzate ai sensi del §5.1. Informazioni inesatte possono comportare la risoluzione immediata del contratto.<br><br>
+5.4 Il Fornitore si riserva il diritto di ampliare o limitare l'elenco delle regioni autorizzate in qualsiasi momento. I contratti esistenti non sono interessati dalle modifiche relative a regioni di nuova autorizzazione.
+
+<b>§6 Periodo di prova gratuito</b><br>
+6.1 I nuovi clienti ricevono un periodo di prova gratuito di 21 giorni con un massimo di 60 minuti di trascrizione.<br><br>
+6.2 Il periodo di prova termina automaticamente senza ulteriori obblighi.<br><br>
+6.3 Non sussiste alcun diritto di recesso durante il periodo di prova, poiché il servizio viene reso disponibile immediatamente.
+
+<b>§7 Durata e disdetta</b><br>
+7.1 Gli abbonamenti mensili possono essere disdetti in qualsiasi momento con effetto alla fine del periodo di fatturazione in corso.<br><br>
+7.2 Gli abbonamenti annuali possono essere disdetti in qualsiasi momento con effetto alla fine della durata contrattuale in corso.<br><br>
+7.3 Gli importi già versati non vengono rimborsati in caso di disdetta (nessun rimborso pro rata).
+
+<b>§8 Diritto di recesso – Esclusione B2B</b><br>
+8.1 Poiché MINU-AI è destinato esclusivamente a clienti aziendali, non sussiste alcun diritto di recesso legale.<br><br>
+8.2 Il diritto di recesso del consumatore ai sensi della Direttiva UE 2011/83/UE e delle corrispondenti normative nazionali non trova applicazione.<br><br>
+8.3 Le risoluzioni contrattuali sono possibili unicamente secondo le disposizioni di disdetta di cui al §7.
+
+<b>§9 Disponibilità e interruzioni – Assenza di SLA</b><br>
+9.1 <b>Il Fornitore non garantisce alcuna disponibilità specifica dei servizi.</b> MINU-AI viene fornito «così com'è» e «secondo disponibilità».<br><br>
+9.2 Il Fornitore ha il diritto di limitare o sospendere il servizio in qualsiasi momento per motivi di manutenzione, aggiornamenti o altri motivi, in modo temporaneo o permanente.<br><br>
+9.3 <b>Non sussiste alcun diritto alla disponibilità ininterrotta.</b> Il Fornitore non è responsabile per guasti, interruzioni, ritardi o disservizi, indipendentemente dalla causa.<br><br>
+9.4 In caso di cessazione definitiva del servizio, il Cliente ne sarà informato. Gli importi già versati per periodi non utilizzati non verranno rimborsati.
+
+<b>§10 Supporto – Assenza di diritto</b><br>
+10.1 <b>Il Fornitore non offre un servizio di assistenza clienti garantito.</b> Le richieste di supporto possono essere inviate via e-mail, ma non sussiste alcun diritto a una risposta né a tempi di risposta definiti.<br><br>
+10.2 Il Fornitore può offrire, limitare o sospendere i servizi di supporto a propria esclusiva discrezione.<br><br>
+10.3 Il supporto telefonico, la formazione o il servizio in loco non fanno parte del contratto.
+
+<b>§11 Esclusione di responsabilità e avvertenza sull'IA</b><br>
+11.1 <b>I contenuti generati dall'IA sono destinati esclusivamente a fungere da ausilio al lavoro.</b> Non costituiscono documenti giuridicamente vincolanti, completi o privi di errori.<br><br>
+11.2 <b>In qualità di utente professionale, il Cliente è tenuto a verificare, controllare e correggere autonomamente tutti i risultati generati dall'IA.</b> Il Fornitore non fornisce alcuna garanzia in merito all'accuratezza, alla completezza o all'idoneità a uno scopo particolare.<br><br>
+11.3 <b>La responsabilità per errori dell'IA, allucinazioni, interpretazioni errate, trascrizioni inesatte o verbali incompleti è completamente esclusa.</b><br><br>
+11.4 <b>La responsabilità per guasti, disservizi o indisponibilità di servizi di terzi (OpenAI, Mistral AI, Stripe, fornitori di hosting) è completamente esclusa.</b><br><br>
+11.5 La responsabilità complessiva del Fornitore è in ogni caso limitata all'importo delle tariffe versate dal Cliente negli ultimi 12 mesi, ma non oltre l'importo di una mensilità.<br><br>
+11.6 Le suddette limitazioni di responsabilità non si applicano ai danni derivanti da lesioni alla vita, all'integrità fisica o alla salute, né in caso di dolo.<br><br>
+11.7 <b>Prescrizione abbreviata:</b> Le pretese risarcitorie del Cliente nei confronti del Fornitore si prescrivono entro 6 mesi dalla conoscenza del danno e della parte responsabile, e in ogni caso non oltre 3 anni dall'evento che ha causato il danno. Tale termine di prescrizione non si applica alle pretese derivanti da lesioni personali o da comportamento doloso.
+
+<b>§12 Obblighi e responsabilità del Cliente</b><br>
+12.1 Il Cliente è l'unico responsabile dell'utilizzo conforme alla legge di MINU-AI.<br><br>
+12.2 Il Cliente si assicura di aver ottenuto tutti i consensi necessari dalle persone registrate.<br><br>
+12.3 Il Cliente non utilizza MINU-AI per scopi illeciti, molesti, diffamatori o altrimenti inammissibili.<br><br>
+12.4 Il Cliente tiene indenne il Fornitore da qualsiasi pretesa di terzi derivante da un utilizzo illecito.<br><br>
+12.5 <b>Divieto di reverse engineering:</b> Al Cliente è vietato decompilare, disassemblare, effettuare il reverse engineering o creare opere derivate del software. In caso di violazione, è dovuta una penale contrattuale di CHF 10'000 per ogni infrazione, senza che il Fornitore debba dimostrare alcun danno. Il diritto di richiedere un risarcimento danni superiore a tale importo è riservato.
+
+<b>§13 Protezione dei dati</b><br>
+Si applica l'informativa sulla privacy separata (si veda il link «Privacy» nel piè di pagina).
+
+<b>§14 Clausola di modifica</b><br>
+14.1 Il Fornitore si riserva il diritto di modificare le presenti CGC in qualsiasi momento.<br><br>
+14.2 Le modifiche verranno comunicate al Cliente via e-mail. Se il Cliente non si oppone entro 30 giorni, le CGC modificate si intendono accettate.<br><br>
+14.3 In caso di modifiche sostanziali, il Cliente dispone di un diritto straordinario di disdetta.
+
+<b>§15 Disposizioni finali</b><br>
+15.1 Si applica esclusivamente il diritto svizzero, con esclusione della Convenzione delle Nazioni Unite sui contratti di compravendita internazionale di merci.<br><br>
+15.2 Il foro esclusivo è Zurigo, Svizzera.<br><br>
+15.3 Qualora singole disposizioni risultino invalide, la validità delle restanti disposizioni rimane inalterata.<br><br>
+15.4 Non esistono accordi verbali accessori.
 </div>
         """, unsafe_allow_html=True)
     else:
