@@ -5873,8 +5873,7 @@ def show_agb_fullpage():
 <div class="agb-section" id="a6">
 <div class="agb-section__heading"><span class="agb-num">§6</span> Kündigung</div>
 <p>6.1 Monatsabonnements können jederzeit zum Ende der laufenden Abrechnungsperiode gekündigt werden.</p>
-<p>6.2 Jahresabonnements können mit einer Frist von 30 Tagen zum Ende der Laufzeit gekündigt werden.</p>
-<p>6.3 Die Kündigung erfolgt über das Kundenportal oder per E-Mail an <a href="mailto:minutes-ai@spekt.ch" style="color:#7c3aed;">minutes-ai@spekt.ch</a>.</p>
+<p>6.2 Jahresabonnements können jederzeit zum Ende der laufenden Vertragslaufzeit gekündigt werden.</p>
 </div>
 <div class="agb-section" id="a7">
 <div class="agb-section__heading"><span class="agb-num">§7</span> Nutzungsbedingungen</div>
@@ -5973,8 +5972,7 @@ def show_agb_fullpage():
 <div class="agb-section" id="a6">
 <div class="agb-section__heading"><span class="agb-num">§6</span> Cancellation</div>
 <p>6.1 Monthly subscriptions can be cancelled at any time effective at the end of the current billing period.</p>
-<p>6.2 Annual subscriptions can be cancelled with 30 days' notice effective at the end of the term.</p>
-<p>6.3 Cancellation is made via the customer portal or by email to <a href="mailto:minutes-ai@spekt.ch" style="color:#7c3aed;">minutes-ai@spekt.ch</a>.</p>
+<p>6.2 Annual subscriptions can be cancelled at any time effective at the end of the current contract term.</p>
 </div>
 <div class="agb-section" id="a7">
 <div class="agb-section__heading"><span class="agb-num">§7</span> Terms of Use</div>
@@ -7149,9 +7147,8 @@ def show_agb_dialog():
 
 <b>§7 Laufzeit und Kündigung</b><br>
 7.1 Monatsabonnements können jederzeit zum Ende des laufenden Abrechnungszeitraums gekündigt werden.<br><br>
-7.2 Jahresabonnements können mit einer Frist von 30 Tagen zum Ende der Vertragslaufzeit gekündigt werden.<br><br>
-7.3 Die Kündigung erfolgt über das Kundenportal oder per E-Mail an minutes-ai@spekt.ch.<br><br>
-7.4 Bereits gezahlte Beträge werden bei Kündigung nicht erstattet (keine anteilige Rückerstattung).
+7.2 Jahresabonnements können jederzeit zum Ende der laufenden Vertragslaufzeit gekündigt werden.<br><br>
+7.3 Bereits gezahlte Beträge werden bei Kündigung nicht erstattet (keine anteilige Rückerstattung).
 
 <b>§8 Widerrufsrecht – B2B-Ausschluss</b><br>
 8.1 Da MINU-AI ausschliesslich für Geschäftskunden bestimmt ist, besteht kein gesetzliches Widerrufsrecht.<br><br>
@@ -7242,9 +7239,8 @@ Es gilt die separate Datenschutzerklärung (siehe Link "Datenschutz" im Footer).
 
 <b>§7 Term and Cancellation</b><br>
 7.1 Monthly subscriptions can be cancelled at any time effective at the end of the current billing period.<br><br>
-7.2 Annual subscriptions can be cancelled with 30 days notice effective at the end of the contract term.<br><br>
-7.3 Cancellation is made via the customer portal or by email to minutes-ai@spekt.ch.<br><br>
-7.4 Amounts already paid will not be refunded upon cancellation (no pro-rata refunds).
+7.2 Annual subscriptions can be cancelled at any time effective at the end of the current contract term.<br><br>
+7.3 Amounts already paid will not be refunded upon cancellation (no pro-rata refunds).
 
 <b>§8 Right of Withdrawal – B2B Exclusion</b><br>
 8.1 As MINU-AI is intended exclusively for business customers, no statutory right of withdrawal exists.<br><br>
