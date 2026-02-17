@@ -5887,10 +5887,11 @@ def show_agb_fullpage():
 </div>
 <div class="agb-section" id="a9">
 <div class="agb-section__heading"><span class="agb-num">§9</span> Haftung</div>
-<p>9.1 Der Anbieter haftet unbeschränkt für Vorsatz und grobe Fahrlässigkeit.</p>
-<p>9.2 Für leichte Fahrlässigkeit haftet der Anbieter nur bei Verletzung wesentlicher Vertragspflichten, beschränkt auf den vorhersehbaren, vertragstypischen Schaden.</p>
+<p>9.1 Die Haftung des Anbieters ist – soweit gesetzlich zulässig – auf Vorsatz beschränkt. Die Haftung für Fahrlässigkeit ist ausgeschlossen.</p>
+<p>9.2 Die Gesamthaftung des Anbieters ist in jedem Fall auf die Höhe der vom Nutzer in den letzten 12 Monaten bezahlten Beträge beschränkt.</p>
 <p>9.3 Die Haftung für die Richtigkeit der KI-generierten Protokolle ist ausgeschlossen. Der Nutzer ist für die Überprüfung der Ergebnisse verantwortlich.</p>
 <p>9.4 Der Anbieter haftet nicht für Schäden durch höhere Gewalt, Ausfall von Drittdiensten (OpenAI, Mistral AI) oder unvorhersehbare technische Störungen.</p>
+<p>9.5 Die vorstehenden Haftungsbeschränkungen gelten nicht für Schäden aus der Verletzung des Lebens, des Körpers oder der Gesundheit.</p>
 </div>
 <div class="agb-section" id="a10">
 <div class="agb-section__heading"><span class="agb-num">§10</span> Verfügbarkeit</div>
@@ -5984,10 +5985,11 @@ def show_agb_fullpage():
 </div>
 <div class="agb-section" id="a9">
 <div class="agb-section__heading"><span class="agb-num">§9</span> Liability</div>
-<p>9.1 The Provider is liable without limitation for intent and gross negligence.</p>
-<p>9.2 For slight negligence, the Provider is only liable for breach of material contractual obligations, limited to foreseeable, contract-typical damages.</p>
+<p>9.1 The Provider's liability is – to the extent permitted by law – limited to intent (wilful misconduct). Liability for negligence is excluded.</p>
+<p>9.2 In any event, the Provider's total liability is limited to the amounts paid by the user in the preceding 12 months.</p>
 <p>9.3 Liability for the accuracy of AI-generated protocols is excluded. The user is responsible for reviewing the results.</p>
 <p>9.4 The Provider is not liable for damages caused by force majeure, failure of third-party services (OpenAI, Mistral AI), or unforeseeable technical disruptions.</p>
+<p>9.5 The above limitations of liability do not apply to damages arising from injury to life, body, or health.</p>
 </div>
 <div class="agb-section" id="a10">
 <div class="agb-section__heading"><span class="agb-num">§10</span> Availability</div>
